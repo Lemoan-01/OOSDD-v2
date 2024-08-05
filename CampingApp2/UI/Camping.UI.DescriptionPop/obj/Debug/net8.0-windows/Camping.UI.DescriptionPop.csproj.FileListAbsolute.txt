@@ -1,0 +1,40 @@
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.exe
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.deps.json
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.runtimeconfig.json
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.pdb
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop_MarkupCompile.cache
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop_MarkupCompile.lref
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.g.resources
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.AssemblyInfo.cs
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\refint\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.pdb
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.genruntimeconfig.cache
+C:\Users\leond\source\repos\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\ref\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.exe
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.runtimeconfig.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\bin\Debug\net8.0-windows\Camping.UI.DescriptionPop.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop_MarkupCompile.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop_MarkupCompile.lref
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.g.resources
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\refint\Camping.UI.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\Camping.UI.DescriptionPop.genruntimeconfig.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.DescriptionPop\obj\Debug\net8.0-windows\ref\Camping.UI.DescriptionPop.dll

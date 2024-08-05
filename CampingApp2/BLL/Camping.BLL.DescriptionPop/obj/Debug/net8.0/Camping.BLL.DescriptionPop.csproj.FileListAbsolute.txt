@@ -1,0 +1,28 @@
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.exe
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.deps.json
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.runtimeconfig.json
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.pdb
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.AssemblyInfo.cs
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\refint\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.pdb
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.genruntimeconfig.cache
+C:\Users\leond\source\repos\Camping.BLL.DescriptionPop\obj\Debug\net8.0\ref\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.exe
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.runtimeconfig.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\bin\Debug\net8.0\Camping.BLL.DescriptionPop.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\refint\Camping.BLL.DescriptionPop.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\Camping.BLL.DescriptionPop.genruntimeconfig.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.DescriptionPop\obj\Debug\net8.0\ref\Camping.BLL.DescriptionPop.dll

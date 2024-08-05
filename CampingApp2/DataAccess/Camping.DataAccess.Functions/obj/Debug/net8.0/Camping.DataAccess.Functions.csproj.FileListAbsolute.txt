@@ -1,0 +1,19 @@
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\bin\Debug\net8.0\Camping.DataAccess.Functions.exe
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\bin\Debug\net8.0\Camping.DataAccess.Functions.deps.json
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\bin\Debug\net8.0\Camping.DataAccess.Functions.runtimeconfig.json
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\bin\Debug\net8.0\Camping.DataAccess.Functions.dll
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\bin\Debug\net8.0\Camping.DataAccess.Functions.pdb
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.AssemblyInfo.cs
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.dll
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\refint\Camping.DataAccess.Functions.dll
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.pdb
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.genruntimeconfig.cache
+C:\Users\leond\source\repos\Camping.DataAccess.Functions\obj\Debug\net8.0\ref\Camping.DataAccess.Functions.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.csproj.AssemblyReference.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping.DataAccess.Functions.csproj.CoreCompileInputs.cache

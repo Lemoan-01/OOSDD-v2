@@ -1,0 +1,25 @@
+﻿<Window x:Class="NotificationService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotificationService"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="gridNotif" Background="White">
+        <TextBlock Text=""
+                   x:Name="MessageText"
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   Margin="10" 
+                   FontSize="14" 
+                   TextWrapping="Wrap"/>
+        <Button Content="OK" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom" 
+                Margin="10" 
+                Width="75" 
+                Height="25" 
+                Click="OkButton_Click"/>
+    </Grid>
+</Window>

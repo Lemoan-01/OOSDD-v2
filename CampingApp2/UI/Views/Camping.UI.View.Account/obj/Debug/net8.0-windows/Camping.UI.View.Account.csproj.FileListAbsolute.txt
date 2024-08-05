@@ -1,0 +1,40 @@
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.exe
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.deps.json
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.runtimeconfig.json
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.pdb
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\View.g.cs
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account_MarkupCompile.cache
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account_MarkupCompile.lref
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\View.baml
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.g.resources
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.AssemblyInfo.cs
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\refint\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.pdb
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.genruntimeconfig.cache
+C:\Users\leond\source\repos\CampingApp2\Camping.UI.View.Account\obj\Debug\net8.0-windows\ref\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.exe
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.runtimeconfig.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\bin\Debug\net8.0-windows\Camping.UI.View.Account.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\View.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account_MarkupCompile.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account_MarkupCompile.lref
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\View.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.g.resources
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\refint\Camping.UI.View.Account.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\Camping.UI.View.Account.genruntimeconfig.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping.UI.View.Account\obj\Debug\net8.0-windows\ref\Camping.UI.View.Account.dll

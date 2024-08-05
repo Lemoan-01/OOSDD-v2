@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Camping.BLL.HomePage/1.0.0": {
+        "runtime": {
+          "Camping.BLL.HomePage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Camping.BLL.HomePage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

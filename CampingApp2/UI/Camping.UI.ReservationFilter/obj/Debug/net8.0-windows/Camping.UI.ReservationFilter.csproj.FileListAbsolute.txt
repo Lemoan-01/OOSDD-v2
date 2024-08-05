@@ -1,0 +1,40 @@
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.exe
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.deps.json
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.runtimeconfig.json
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.pdb
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter_MarkupCompile.cache
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter_MarkupCompile.lref
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.g.resources
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.AssemblyInfo.cs
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\refint\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.pdb
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.genruntimeconfig.cache
+C:\Users\leond\source\repos\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\ref\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.exe
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.runtimeconfig.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\bin\Debug\net8.0-windows\Camping.UI.ReservationFilter.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter_MarkupCompile.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter_MarkupCompile.lref
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.g.resources
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\refint\Camping.UI.ReservationFilter.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping.UI.ReservationFilter.genruntimeconfig.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\ref\Camping.UI.ReservationFilter.dll

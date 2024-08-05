@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Camping.UI.HomePage/1.0.0": {
+        "dependencies": {
+          "Camping.BLL.HomePage": "1.0.0"
+        },
+        "runtime": {
+          "Camping.UI.HomePage.dll": {}
+        }
+      },
+      "Camping.BLL.HomePage/1.0.0": {
+        "runtime": {
+          "Camping.BLL.HomePage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Camping.UI.HomePage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Camping.BLL.HomePage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
