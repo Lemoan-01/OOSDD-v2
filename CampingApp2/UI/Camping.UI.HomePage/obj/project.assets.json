@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "Camping.BLL.HomePage/1.0.0": {
+      "Camping_BLL_HomePage/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Camping.BLL.HomePage.dll": {}
+          "bin/placeholder/Camping_BLL_HomePage.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Camping.BLL.HomePage.dll": {}
+          "bin/placeholder/Camping_BLL_HomePage.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Camping.BLL.HomePage/1.0.0": {
+    "Camping_BLL_HomePage/1.0.0": {
       "type": "project",
-      "path": "../../BLL/Camping.BLL.HomePage/Camping.BLL.HomePage.csproj",
-      "msbuildProject": "../../BLL/Camping.BLL.HomePage/Camping.BLL.HomePage.csproj"
+      "path": "../../BLL/Camping.BLL.HomePage/Camping_BLL_HomePage.csproj",
+      "msbuildProject": "../../BLL/Camping.BLL.HomePage/Camping_BLL_HomePage.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Camping.BLL.HomePage >= 1.0.0"
+      "Camping_BLL_HomePage >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping.UI.HomePage.csproj",
-      "projectName": "Camping.UI.HomePage",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping.UI.HomePage.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_HomePage.csproj",
+      "projectName": "Camping_UI_HomePage",
+      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_HomePage.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +58,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj"
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj"
             }
           }
         }

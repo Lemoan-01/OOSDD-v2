@@ -4,12 +4,12 @@
     "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.MakeReservationPage\\Camping.UI.MakeReservationPage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj": {
+    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj",
-        "projectName": "Camping.BLL.MakeReservationPage",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj",
+        "projectName": "Camping_BLL_MakeReservationPage",
+        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\obj\\",
         "projectStyle": "PackageReference",
@@ -226,8 +226,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj"
+              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj"
               }
             }
           }

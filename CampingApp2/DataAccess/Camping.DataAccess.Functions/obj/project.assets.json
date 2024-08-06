@@ -168,9 +168,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping.DataAccess.Functions.csproj",
-      "projectName": "Camping.DataAccess.Functions",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping.DataAccess.Functions.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
+      "projectName": "Camping_DataAccess_Functions",
+      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\obj\\",
       "projectStyle": "PackageReference",

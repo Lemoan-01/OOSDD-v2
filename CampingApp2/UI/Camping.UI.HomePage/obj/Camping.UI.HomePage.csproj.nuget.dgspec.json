@@ -4,12 +4,12 @@
     "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping.UI.HomePage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj": {
+    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj",
-        "projectName": "Camping.BLL.HomePage",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj",
+        "projectName": "Camping_BLL_HomePage",
+        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\obj\\",
         "projectStyle": "PackageReference",
@@ -91,8 +91,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj"
+              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj"
               }
             }
           }

@@ -34,20 +34,20 @@
           }
         }
       },
-      "Camping.BLL.MakeReservationPage/1.0.0": {
+      "Camping_BLL_MakeReservationPage/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Camping.DataAccess.Functions": "1.0.0"
+          "Camping_DataAccess_Functions": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Camping.BLL.MakeReservationPage.dll": {}
+          "bin/placeholder/Camping_BLL_MakeReservationPage.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Camping.BLL.MakeReservationPage.dll": {}
+          "bin/placeholder/Camping_BLL_MakeReservationPage.dll": {}
         }
       },
-      "Camping.DataAccess.Functions/1.0.0": {
+      "Camping_DataAccess_Functions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -55,10 +55,10 @@
           "NotificationService": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Camping.DataAccess.Functions.dll": {}
+          "bin/placeholder/Camping_DataAccess_Functions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Camping.DataAccess.Functions.dll": {}
+          "bin/placeholder/Camping_DataAccess_Functions.dll": {}
         }
       },
       "NotificationService/1.0.0": {
@@ -176,15 +176,15 @@
         "mysqlconnector.nuspec"
       ]
     },
-    "Camping.BLL.MakeReservationPage/1.0.0": {
+    "Camping_BLL_MakeReservationPage/1.0.0": {
       "type": "project",
-      "path": "../../BLL/Camping.BLL.MakeReservationPage/Camping.BLL.MakeReservationPage.csproj",
-      "msbuildProject": "../../BLL/Camping.BLL.MakeReservationPage/Camping.BLL.MakeReservationPage.csproj"
+      "path": "../../BLL/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj",
+      "msbuildProject": "../../BLL/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj"
     },
-    "Camping.DataAccess.Functions/1.0.0": {
+    "Camping_DataAccess_Functions/1.0.0": {
       "type": "project",
-      "path": "../../DataAccess/Camping.DataAccess.Functions/Camping.DataAccess.Functions.csproj",
-      "msbuildProject": "../../DataAccess/Camping.DataAccess.Functions/Camping.DataAccess.Functions.csproj"
+      "path": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj",
+      "msbuildProject": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj"
     },
     "NotificationService/1.0.0": {
       "type": "project",
@@ -194,7 +194,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Camping.BLL.MakeReservationPage >= 1.0.0"
+      "Camping_BLL_MakeReservationPage >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -204,9 +204,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.MakeReservationPage\\Camping.UI.MakeReservationPage.csproj",
-      "projectName": "Camping.UI.MakeReservationPage",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.MakeReservationPage\\Camping.UI.MakeReservationPage.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.MakeReservationPage\\Camping_UI_MakeReservationPage.csproj",
+      "projectName": "Camping_UI_MakeReservationPage",
+      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.MakeReservationPage\\Camping_UI_MakeReservationPage.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.MakeReservationPage\\obj\\",
       "projectStyle": "PackageReference",
@@ -229,8 +229,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping.BLL.MakeReservationPage.csproj"
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3HUJ6KkyxsMzOYi07OLZhQ8xCIPIqxRfMYxvid3vAYUISDSsd/Q4T5BdZaVgVZ/HC2vzrFuhE8QpJ1N/qms/fQ==",
+  "dgSpecHash": "cer8tynj0XmuTVMMFnqhKxO22o+1gkv8HiOj2xiGymzMa6Bsz4kqWgUZ1kkbzCSOH8TfbIsebre8A8KdWrSeUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping.BLL.HomePage.csproj",
+  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

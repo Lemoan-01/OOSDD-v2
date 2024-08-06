@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping.BLL.DescriptionPop.csproj",
-      "projectName": "Camping.BLL.DescriptionPop",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping.BLL.DescriptionPop.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj",
+      "projectName": "Camping_BLL_DescriptionPop",
+      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\obj\\",
       "projectStyle": "PackageReference",

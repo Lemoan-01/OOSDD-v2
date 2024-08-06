@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping.BLL.ReservationFilter.csproj",
-      "projectName": "Camping.BLL.ReservationFilter",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping.BLL.ReservationFilter.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj",
+      "projectName": "Camping_BLL_ReservationFilter",
+      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\obj\\",
       "projectStyle": "PackageReference",

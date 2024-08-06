@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Camping.BLL.ReservationFilter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbf8285c96606b1eacf6d711d2aa06b4e309c34a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Camping.BLL.ReservationFilter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Camping.BLL.ReservationFilter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

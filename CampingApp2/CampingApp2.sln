@@ -15,31 +15,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{46FFF1F7-BD3D-4772-AB98-2BB7BAB5EB91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.BLL.DescriptionPop", "BLL\Camping.BLL.DescriptionPop\Camping.BLL.DescriptionPop.csproj", "{AACD1320-2A2E-4BE3-96A0-F96B46479C30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_BLL_DescriptionPop", "BLL\Camping.BLL.DescriptionPop\Camping_BLL_DescriptionPop.csproj", "{AACD1320-2A2E-4BE3-96A0-F96B46479C30}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.BLL.HomePage", "BLL\Camping.BLL.HomePage\Camping.BLL.HomePage.csproj", "{4CC96FE2-2EDC-4DCC-944C-C6C216EC026E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_BLL_HomePage", "BLL\Camping.BLL.HomePage\Camping_BLL_HomePage.csproj", "{4CC96FE2-2EDC-4DCC-944C-C6C216EC026E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.BLL.MakeReservationPage", "BLL\Camping.BLL.MakeReservationPage\Camping.BLL.MakeReservationPage.csproj", "{688C799B-C6A2-44FA-AECE-9D2A0A563577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_BLL_MakeReservationPage", "BLL\Camping.BLL.MakeReservationPage\Camping_BLL_MakeReservationPage.csproj", "{688C799B-C6A2-44FA-AECE-9D2A0A563577}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.BLL.ReservationFilter", "BLL\Camping.BLL.ReservationFilter\Camping.BLL.ReservationFilter.csproj", "{6A58CA39-BEE8-4E24-80C0-2904326872B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_BLL_ReservationFilter", "BLL\Camping.BLL.ReservationFilter\Camping_BLL_ReservationFilter.csproj", "{6A58CA39-BEE8-4E24-80C0-2904326872B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.UI.DescriptionPop", "UI\Camping.UI.DescriptionPop\Camping.UI.DescriptionPop.csproj", "{637EC1E3-2F22-4359-B521-3CA32F4510DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_DescriptionPop", "UI\Camping.UI.DescriptionPop\Camping_UI_DescriptionPop.csproj", "{637EC1E3-2F22-4359-B521-3CA32F4510DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.UI.HomePage", "UI\Camping.UI.HomePage\Camping.UI.HomePage.csproj", "{E74391D0-7E22-4E7D-9FC2-310220635416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_HomePage", "UI\Camping.UI.HomePage\Camping_UI_HomePage.csproj", "{E74391D0-7E22-4E7D-9FC2-310220635416}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.UI.ReservationFilter", "UI\Camping.UI.ReservationFilter\Camping.UI.ReservationFilter.csproj", "{4438B855-12FC-4ED4-A622-362623912233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_ReservationFilter", "UI\Camping.UI.ReservationFilter\Camping_UI_ReservationFilter.csproj", "{4438B855-12FC-4ED4-A622-362623912233}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.UI.View.Account", "UI\Views\Camping.UI.View.Account\Camping.UI.View.Account.csproj", "{D4964DA5-71E6-4417-9799-733EADDB0089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_View_Account", "UI\Views\Camping.UI.View.Account\Camping_UI_View_Account.csproj", "{D4964DA5-71E6-4417-9799-733EADDB0089}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.UI.View.Admin", "UI\Views\Camping.UI.View.Admin\Camping.UI.View.Admin.csproj", "{D4AD2D65-1B25-4B34-B86D-669F622EF0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_View_Admin", "UI\Views\Camping.UI.View.Admin\Camping_UI_View_Admin.csproj", "{D4AD2D65-1B25-4B34-B86D-669F622EF0B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.DataAccess.Functions", "DataAccess\Camping.DataAccess.Functions\Camping.DataAccess.Functions.csproj", "{681923D4-AEB7-4C5B-B3A3-66EC82361D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_DataAccess_Functions", "DataAccess\Camping.DataAccess.Functions\Camping_DataAccess_Functions.csproj", "{681923D4-AEB7-4C5B-B3A3-66EC82361D68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.UI.MakeReservationPage", "UI\Camping.UI.MakeReservationPage\Camping.UI.MakeReservationPage.csproj", "{6D14E72C-75C3-4258-8CD7-F28A8123C10D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_MakeReservationPage", "UI\Camping.UI.MakeReservationPage\Camping_UI_MakeReservationPage.csproj", "{6D14E72C-75C3-4258-8CD7-F28A8123C10D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{D05DFA41-2C22-470D-8343-77F46C65CA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{7BDC5AFE-D92E-4E3E-AEAE-08FC0FE8BCBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "NotificationService\NotificationService.csproj", "{7BDC5AFE-D92E-4E3E-AEAE-08FC0FE8BCBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

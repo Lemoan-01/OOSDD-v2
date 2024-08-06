@@ -54,7 +54,7 @@ namespace Camping.UI.MakeReservationPage
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
+            Button button = sender as Button; //computer zeurt over nullable maar mnu
 
             if (button.Name == "Cancel")
             {
