@@ -1,24 +1,99 @@
-﻿using System.Text;
+﻿using Camping.DataAccess.Functions;
+using ViewModels;
+using System;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
-namespace Camping.UI.HomePage
+namespace Camping_UI_HomePage
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        public static int userID { get; internal set; } = -1; // default value for guests
+        private bool isAdmin = false;
+
+        DBFunctions dbFunc = new DBFunctions();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            accInfo.Visibility = Visibility.Collapsed;
+            btnAdminPage.Visibility = Visibility.Collapsed;
+        }
+
+        public MainWindow(int _userID, bool isAdmin)
+        {
+            InitializeComponent();
+            userID = _userID;
+            string email = dbFunc.GetEmail(userID);
+            this.isAdmin = isAdmin;
+
+            if (userID != -1)
+            {
+                loginBtn.Visibility = Visibility.Collapsed;
+                accInfo.Visibility = Visibility.Visible;
+                btnAdminPage.Visibility = Visibility.Collapsed;
+
+                lblLoggedIn.Content = "Your email = " + email;
+            }
+            if (userID != -1 && isAdmin != false)
+            {
+                loginBtn.Visibility = Visibility.Collapsed;
+                accInfo.Visibility = Visibility.Visible;
+                btnAdminPage.Visibility = Visibility.Visible;
+
+
+                lblLoggedIn.Content = "Your email = " + email;
+            }
+
+        }
+
+        public void closeHomePage()
+        {
+            this.Close();
+        }
+
+        private void pnlSelectionBar_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed) { this.DragMove(); }
+            if (e.LeftButton == MouseButtonState.Pressed && this.WindowState == WindowState.Maximized)
+            {
+                // Exit fullscreen mode
+                this.WindowState = WindowState.Normal;
+            }
+        }
+
+        private void pnlTopBar_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed) { this.DragMove(); }
+            if (e.LeftButton == MouseButtonState.Pressed && this.WindowState == WindowState.Maximized)
+            {
+                // Exit fullscreen mode
+                this.WindowState = WindowState.Normal;
+            }
+        }
+
+        private void btnMinimize_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                this.WindowState = WindowState.Minimized;
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void btnFullscreen_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = (this.WindowState == WindowState.Normal) ? WindowState.Maximized : WindowState.Normal;
+        }
+
+        private void btnTerminate_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Environment.Exit(1);
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 }

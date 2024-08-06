@@ -1,0 +1,12 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\bin\Debug\net8.0-windows\Menu.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\bin\Debug\net8.0-windows\Menu.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\bin\Debug\net8.0-windows\Menu.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.sourcelink.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\refint\Menu.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\Menu.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Menu\obj\Debug\net8.0-windows\ref\Menu.dll

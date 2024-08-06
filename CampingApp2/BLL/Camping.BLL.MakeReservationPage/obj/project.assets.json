@@ -170,8 +170,8 @@
     },
     "NotificationService/1.0.0": {
       "type": "project",
-      "path": "../../NotificationService/NotificationService.csproj",
-      "msbuildProject": "../../NotificationService/NotificationService.csproj"
+      "path": "../../UI/Util/NotificationService/NotificationService.csproj",
+      "msbuildProject": "../../UI/Util/NotificationService/NotificationService.csproj"
     }
   },
   "projectFileDependencyGroups": {

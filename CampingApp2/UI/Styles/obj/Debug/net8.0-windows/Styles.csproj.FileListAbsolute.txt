@@ -1,0 +1,17 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\bin\Debug\net8.0-windows\Styles.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\bin\Debug\net8.0-windows\Styles.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\bin\Debug\net8.0-windows\Styles.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Button.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Page.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Text.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles_MarkupCompile.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.g.resources
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.sourcelink.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\refint\Styles.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\Styles.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Styles\obj\Debug\net8.0-windows\ref\Styles.dll

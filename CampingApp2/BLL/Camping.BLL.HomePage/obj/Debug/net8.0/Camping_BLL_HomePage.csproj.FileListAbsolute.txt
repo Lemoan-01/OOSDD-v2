@@ -1,0 +1,15 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\bin\Debug\net8.0\Camping_BLL_HomePage.exe
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\bin\Debug\net8.0\Camping_BLL_HomePage.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\bin\Debug\net8.0\Camping_BLL_HomePage.runtimeconfig.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\bin\Debug\net8.0\Camping_BLL_HomePage.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\bin\Debug\net8.0\Camping_BLL_HomePage.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.sourcelink.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\refint\Camping_BLL_HomePage.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\Camping_BLL_HomePage.genruntimeconfig.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0\ref\Camping_BLL_HomePage.dll

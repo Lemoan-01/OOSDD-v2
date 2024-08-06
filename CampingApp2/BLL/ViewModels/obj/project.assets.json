@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Camping_BLL_HomePage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Camping_BLL_HomePage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_BLL_HomePage.dll": {}
+        }
+      },
+      "Menu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Menu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Menu.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Camping_BLL_HomePage/1.0.0": {
+      "type": "project",
+      "path": "../Camping.BLL.HomePage/Camping_BLL_HomePage.csproj",
+      "msbuildProject": "../Camping.BLL.HomePage/Camping_BLL_HomePage.csproj"
+    },
+    "Menu/1.0.0": {
+      "type": "project",
+      "path": "../Menu/Menu.csproj",
+      "msbuildProject": "../Menu/Menu.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Camping_BLL_HomePage >= 1.0.0",
+      "Menu >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\leond\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ViewModels\\ViewModels.csproj",
+      "projectName": "ViewModels",
+      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ViewModels\\ViewModels.csproj",
+      "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ViewModels\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj"
+            },
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Menu\\Menu.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Menu\\Menu.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

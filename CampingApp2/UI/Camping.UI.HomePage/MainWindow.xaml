@@ -1,12 +1,149 @@
-﻿<Window x:Class="Camping.UI.HomePage.MainWindow"
+﻿<Window x:Class="Camping_UI_HomePage.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Camping.UI.HomePage"
+        xmlns:vm="clr-namespace:ViewModels"
+        xmlns:Menu="clr-namespace:Menu;assembly=Menu" xmlns:vm1="clr-namespace:ViewModels;assembly=ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Joehoe Campings"
+        Height="600"
+        Width="800"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Icon="/Images/Icons/icoKangaroo.ico"
+        ResizeMode="CanResizeWithGrip"
+        MinWidth="800"
+        MinHeight="600">
 
-    </Grid>
+    <Window.DataContext>
+        <vm:NavigationVM/>
+    </Window.DataContext>
+
+    <!-- Exit/Minimize Style -->
+    <Window.Resources>
+        <Style x:Key="HoverButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FF282C31"/>
+            <Setter Property="Foreground" Value="#FF2C9BFF"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF3A3E44"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border BorderBrush="#FF0E3A64" BorderThickness="2">
+        <!-- Add Border around Grid -->
+        <!-- Background Grid -->
+        <Grid Name="gridSideBar" Background="#20262B">
+            <!-- Top StackPanel -->
+            <Grid x:Name="pnlTopBar" Background="#282C31" Height="50" VerticalAlignment="Top" MouseDown="pnlTopBar_MouseDown">
+                <!-- Left StackPanel -->
+                <StackPanel Orientation="Horizontal">
+                    <!-- Your existing menu buttons -->
+                </StackPanel>
+
+                <Label x:Name="lblLoggedIn" Content="" HorizontalAlignment="Left" Margin="181,10,0,0" VerticalAlignment="Top" Height="40" Width="459" FontSize="14" FontFamily="Yu Gothic" Foreground="White"/>
+
+                <!-- Right StackPanel -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <!-- Custom Button Style -->
+                    <Button x:Name="btnMinimize" Content="➖" Style="{StaticResource HoverButtonStyle}" Width="50" Height="50" FontFamily="Century Gothic" Click="btnMinimize_Click"/>
+                    <Button x:Name="btnFullscreen" Content="🔲" Style="{StaticResource HoverButtonStyle}" Width="50" Height="50" FontFamily="Century Gothic" Click="btnFullscreen_Click"/>
+                    <Button x:Name="btnTerminate" Content="✖️" Style="{StaticResource HoverButtonStyle}" Margin="1,0,0,0" Width="50" Height="50" FontFamily="Century Gothic" Click="btnTerminate_Click"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Left StackPanel -->
+            <StackPanel x:Name="pnlSelectionBar" Background="#282C31" Width="180" Orientation="Vertical" HorizontalAlignment="Left" MouseDown="pnlSelectionBar_MouseDown">
+                <Image Height="100" Width="100" Source="/imgRoundedKangaroo.png" Margin="0,20,0,0">
+                    <Image.Effect>
+                        <DropShadowEffect ShadowDepth="0" Color="#FF2B88CA" Opacity="1" BlurRadius="65"/>
+                    </Image.Effect>
+                </Image>
+            </StackPanel>
+
+            <!-- Menu -->
+            <Menu Background="Transparent" 
+                  Width="180" 
+                  HorizontalAlignment="Left" 
+                  Margin="0,155,0,0">
+
+                <Menu:Btn Style="{StaticResource BtnStyle}"
+                          Command="{Binding HomeCommand}"
+                          IsChecked="True"
+                          Margin="-5,0,0,0">
+
+                    <Grid>
+                        <TextBlock Text="Home"
+                                   Style="{StaticResource Text_Style}"/>
+                    </Grid>
+
+                </Menu:Btn>
+
+                <Menu:Btn Style="{StaticResource BtnStyle}"
+                          Command="{Binding ReservationCommand}"
+                          Margin="-5,0,0,0">
+
+                    <Grid>
+                        <TextBlock Text="Reservation"
+                                   Style="{StaticResource Text_Style}" Margin="0,16,0,0" Width="92" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                    </Grid>
+                </Menu:Btn>
+
+                <Menu:Btn x:Name="loginBtn" Style="{StaticResource BtnStyle}"
+                          Command="{Binding LoginCommand}"
+                          Margin="-5,0,0,0">
+
+                    <Grid>
+                        <TextBlock Text="Login"
+                        Style="{StaticResource Text_Style}" HorizontalAlignment="Stretch" Margin="67,0,67,0"/>
+                    </Grid>
+                </Menu:Btn>
+                <Menu:Btn x:Name="accInfo" Style="{StaticResource BtnStyle}"
+                        Command="{Binding AccountCommand}" Width="178" HorizontalAlignment="Left" Margin="-5,0,0,0">
+
+                    <Grid>
+                        <TextBlock Text="My Account"
+                   Style="{StaticResource Text_Style}" Margin="40,0,0,0" Width="113"/>
+                    </Grid>
+
+                </Menu:Btn>
+                <Menu:Btn  x:Name="btnAdminPage" Style="{StaticResource BtnStyle}"
+                        Command="{Binding AdminCommand}" Width="178" HorizontalAlignment="Left" Margin="-5,0,0,0">
+                    <Grid>
+                        <TextBlock Text="Admin"
+                            Style="{StaticResource Text_Style}" Margin="63,0,64,0" HorizontalAlignment="Stretch"/>
+                    </Grid>
+                </Menu:Btn>
+            </Menu>
+
+            <!-- Main Content Grid -->
+            <Grid x:Name="pnlMain" Background="#20262B" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="180,50,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <ContentControl x:Name="Home" Grid.Row="0" Grid.Column="0" Content="{Binding CurrentView}"/>
+            </Grid>
+        </Grid>
+    </Border>
+    <!-- Close Border -->
 </Window>

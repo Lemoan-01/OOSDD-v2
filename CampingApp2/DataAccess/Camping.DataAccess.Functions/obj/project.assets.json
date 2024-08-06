@@ -151,8 +151,8 @@
     },
     "NotificationService/1.0.0": {
       "type": "project",
-      "path": "../../NotificationService/NotificationService.csproj",
-      "msbuildProject": "../../NotificationService/NotificationService.csproj"
+      "path": "../../UI/Util/NotificationService/NotificationService.csproj",
+      "msbuildProject": "../../UI/Util/NotificationService/NotificationService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -193,8 +193,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\NotificationService\\NotificationService.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\NotificationService\\NotificationService.csproj"
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
             }
           }
         }
