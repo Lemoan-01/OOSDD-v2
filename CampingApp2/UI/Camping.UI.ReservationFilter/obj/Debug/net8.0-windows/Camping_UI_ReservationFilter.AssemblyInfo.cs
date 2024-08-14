@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Camping_UI_ReservationFilter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a2df0ae1c2c0e40ffd18afff4844fcbe7776ef1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c586b61ba28f9c846473f2b25bc43cbf63dc8ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Camping_UI_ReservationFilter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Camping_UI_ReservationFilter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

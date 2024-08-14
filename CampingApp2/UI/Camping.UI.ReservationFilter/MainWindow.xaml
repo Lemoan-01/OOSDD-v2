@@ -3,10 +3,88 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Camping.UI.ReservationFilter"
+        xmlns:vm="clr-namespace:Homepage.ViewModels"
+        xmlns:Menu="clr-namespace:Homepage.Utilities"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Filters"
+        Height="250"
+        Width="200"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="Manual"
+        Icon="/Images/Icons/icoKangaroo.ico"
+        ResizeMode="NoResize"
+        MinWidth="200"
+        MinHeight="250"
+        Background="#20262B"
+        ShowInTaskbar="False">
 
-    </Grid>
+    <Window.Resources>
+        <Style x:Key="HoverButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FF282C31"/>
+            <Setter Property="Foreground" Value="#FF2C9BFF"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                             BorderBrush="{TemplateBinding BorderBrush}"
+                             BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF3A3E44"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border BorderBrush="#FF0E3A64" BorderThickness="2">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Top bar -->
+            <Grid Grid.Row="0" Background="#282C31" Height="30">
+                <Button x:Name="btnTerminate" Content="✖️" Style="{StaticResource HoverButtonStyle}" Margin="1,0,0,0" Width="30" Height="30" FontFamily="Century Gothic" HorizontalAlignment="Right" Click="btnTerminate_Click"/>
+            </Grid>
+
+            <!-- Filters -->
+            <Grid Grid.Row="1" x:Name="gridFilter">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Filters" Foreground="White" FontFamily="Century Gothic" FontSize="20" Margin="5,0"/>
+
+                    <!-- Start Date Picker -->
+                    <DatePicker x:Name="StartDatePicker" DisplayDateStart="{x:Static sys:DateTime.Now}" Margin="5,5,5,0" SelectedDate="{Binding StartDate}" DisplayDateEnd="{Binding MaxDate}" Language="en-US" SelectedDateChanged="SelectedDateChanged">
+                        <DatePicker.Resources>
+                            <Style TargetType="DatePickerTextBox">
+                                <Setter Property="Text" Value="Select Your Start Date"/>
+                            </Style>
+                        </DatePicker.Resources>
+                    </DatePicker>
+
+                    <!-- End Date Picker -->
+                    <DatePicker x:Name="EndDatePicker" Margin="5,5,5,0" SelectedDate="{Binding EndDate}" DisplayDateStart="{x:Static sys:DateTime.Now}" DisplayDateEnd="{Binding MaxDate}" Language="en-US" SelectedDateChanged="SelectedDateChanged">
+                        <DatePicker.Resources>
+                            <Style TargetType="DatePickerTextBox">
+                                <Setter Property="Text" Value="Select Your End Date"/>
+                            </Style>
+                        </DatePicker.Resources>
+                    </DatePicker>
+
+                    <!-- Apply Filter Button -->
+                    <Button Content="Apply Filter" Margin="5,10,5,0" HorizontalAlignment="Center" Background="#00DDDDDD" Foreground="White" Width="155" Height="40" BorderBrush="#FF2C9BFF" Click="Button_Click"/>
+                    <Label x:Name="LblStayDuration" Content="" Foreground="White" Height="52" Width="181" FontSize="16" FontFamily="Yu Gotic UI Semibold"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Border>
 </Window>

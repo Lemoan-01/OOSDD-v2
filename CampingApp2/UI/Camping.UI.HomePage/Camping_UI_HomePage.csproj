@@ -12,7 +12,6 @@
     <ProjectReference Include="..\..\BLL\Camping.BLL.HomePage\Camping_BLL_HomePage.csproj" />
     <ProjectReference Include="..\..\BLL\Menu\Menu.csproj" />
     <ProjectReference Include="..\..\BLL\ViewModels\ViewModels.csproj" />
-    <ProjectReference Include="..\..\BLL\ViewModels\ViewModels.csproj" />
     <ProjectReference Include="..\Styles\Styles.csproj" />
     <ProjectReference Include="..\Util\NotificationService\NotificationService.csproj" />
   </ItemGroup>

@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BLL\Camping.BLL.DescriptionPop\Camping_BLL_DescriptionPop.csproj" />
+  </ItemGroup>
+
 </Project>
