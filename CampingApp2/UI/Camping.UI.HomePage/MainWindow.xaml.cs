@@ -1,5 +1,4 @@
-﻿using Camping.DataAccess.Functions;
-using ViewModels;
+﻿using Camping_BLL_HomePage;
 using System;
 using System.Windows;
 using System.Windows.Input;
@@ -11,7 +10,7 @@ namespace Camping_UI_HomePage
         public static int userID { get; internal set; } = -1; // default value for guests
         private bool isAdmin = false;
 
-        DBFunctions dbFunc = new DBFunctions();
+        private BLLHomePage businessLogic;
 
         public MainWindow()
         {
@@ -19,14 +18,16 @@ namespace Camping_UI_HomePage
 
             accInfo.Visibility = Visibility.Collapsed;
             btnAdminPage.Visibility = Visibility.Collapsed;
+            businessLogic = new BLLHomePage();
         }
 
         public MainWindow(int _userID, bool isAdmin)
         {
             InitializeComponent();
             userID = _userID;
-            string email = dbFunc.GetEmail(userID);
             this.isAdmin = isAdmin;
+            businessLogic = new BLLHomePage();
+            string email = businessLogic.GetUserEmail(userID);
 
             if (userID != -1)
             {
@@ -42,10 +43,8 @@ namespace Camping_UI_HomePage
                 accInfo.Visibility = Visibility.Visible;
                 btnAdminPage.Visibility = Visibility.Visible;
 
-
                 lblLoggedIn.Content = "Your email = " + email;
             }
-
         }
 
         public void closeHomePage()
