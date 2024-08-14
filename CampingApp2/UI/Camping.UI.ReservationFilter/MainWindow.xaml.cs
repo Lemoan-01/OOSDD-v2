@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Camping_BLL_ReservationFilter;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -18,7 +19,7 @@ namespace Camping.UI.ReservationFilter
     {
         private double _previousWidth;
         private double _previousHeight;
-        private Homepage.Windows.ReservationFilterLogic _logic;
+        private ReservationFilterLogic _logic;
 
         public ReservationFilter()
         {

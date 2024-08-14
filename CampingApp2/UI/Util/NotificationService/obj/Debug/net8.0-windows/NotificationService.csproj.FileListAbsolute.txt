@@ -1,12 +1,12 @@
-C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\NotificationService_MarkupCompile.cache
-C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\NotificationService_MarkupCompile.lref
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\bin\Debug\net8.0-windows\NotificationService.exe
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\bin\Debug\net8.0-windows\NotificationService.deps.json
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\bin\Debug\net8.0-windows\NotificationService.runtimeconfig.json
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\bin\Debug\net8.0-windows\NotificationService.dll
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\bin\Debug\net8.0-windows\NotificationService.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\NotificationService_MarkupCompile.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\NotificationService_MarkupCompile.lref
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\NotificationService.g.resources
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Util\NotificationService\obj\Debug\net8.0-windows\NotificationService.GeneratedMSBuildEditorConfig.editorconfig

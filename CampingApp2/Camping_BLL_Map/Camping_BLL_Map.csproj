@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\Camping.DataAccess.Functions\Camping_DataAccess_Functions.csproj" />
+    <ProjectReference Include="..\UI\Camping.UI.DescriptionPop\Camping_UI_DescriptionPop.csproj" />
+  </ItemGroup>
+
+</Project>

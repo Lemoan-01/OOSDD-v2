@@ -1,0 +1,143 @@
+﻿<Window x:Class="Camping_UI_Map.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Camping_UI_Map"
+             mc:Ignorable="d" 
+             d:DesignHeight="545"
+             d:DesignWidth="616"
+             Style="{StaticResource Page_Style}">
+
+    <UserControl.Resources>
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <!-- Adjust the CornerRadius to make it rounder -->
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Bisque"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <UserControl.DataContext>
+        <vm:ReservationVM/>
+    </UserControl.DataContext>
+
+    <Grid Background="#20262B">
+        <Label Content="Book Reservation" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="22"/>
+
+        <!-- Using a ViewBox to contain both the map image and buttons, without this it won't resize properly -->
+        <Viewbox>
+            <Grid x:Name="MapGrid">
+                <!-- Map image -->
+                <Image Height="498" Width="616" Source="/Views/Interactieve_Map.png"/>
+
+                <!-- Buttons -->
+                <Button x:Name="P1" Content="1" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,391,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P2" Content="2" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,350,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P3" Content="3" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,311,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P4" Content="4" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,271,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P5" Content="5" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,231,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P6" Content="6" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,192,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P7" Content="7" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,152,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P8" Content="8" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="58,111,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P9" Content="9" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="74,68,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P10" Content="10" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="117,68,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P11" Content="11" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="160,68,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P12" Content="12" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="206,68,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P13" Content="13" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="250,68,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P14" Content="14" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="296,68,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P15" Content="15" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="340,69,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P16" Content="16" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="369,69,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P17" Content="17" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="371,189,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P18" Content="18" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="341,189,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P19" Content="19" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="311,189,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P20" Content="20" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="282,189,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P21" Content="21" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="157,130,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P22" Content="22" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="157,175,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P23" Content="23" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="108,211,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P24" Content="24" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="108,251,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P25" Content="25" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="108,291,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P26" Content="26" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="108,331,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P27" Content="27" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="318,388,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P28" Content="28" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="362,388,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P29" Content="29" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="405,388,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen" RenderTransformOrigin="0.309,0.533"/>
+                <Button x:Name="P30" Content="30" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="449,388,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P31" Content="31" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="493,388,0,0" VerticalAlignment="Top" Height="18" Width="32" Opacity="10" Click="spotBtn" Background="PaleGreen" RenderTransformOrigin="0.478,0.122"/>
+                <Button x:Name="P32" Content="32" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="405,323,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen"/>
+                <Button x:Name="P33" Content="33" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="11,303,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-70"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+                <Button x:Name="P34" Content="34" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="11,265,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-70"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+                <Button x:Name="P35" Content="35" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="11,227,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-70"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+                <Button x:Name="P36" Content="36" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Left" Margin="12,190,0,0" VerticalAlignment="Top" Height="32" Width="18" Opacity="10" Click="spotBtn" Background="PaleGreen" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-70"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+
+                <Button x:Name="btnInformation" Content="🗓️" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Width="30" Height="30" Click="btnInformation_Click" Background="#FF20262B" Foreground="#FF2C9BFF" BorderBrush="#FF20262B">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </Viewbox>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image x:Name="imgEmptyView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="/Views/emptyview.png" Stretch="Fill" Opacity="0.85"/>
+        </Grid>
+
+        <local:Loading x:Name="loadingScreen" Visibility="Collapsed" Panel.ZIndex="1"/>
+    </Grid>
+    </UserControl>
