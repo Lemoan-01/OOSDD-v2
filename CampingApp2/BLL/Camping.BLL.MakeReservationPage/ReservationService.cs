@@ -1,23 +1,20 @@
-﻿using Camping.DataAccess.Functions;
+﻿using Camping_BLL;
 using System;
 
 namespace Camping.BLL.MakeReservationPage
 {
-    public class ReservationService
+    public class ReservationService : BaseLogic
     {
-        public int UserID { get; set; } = -1;
+        public int UserID { get; set; } = -1; //y public
 
-        public bool MakeReservation(int placeID, DateTime startDate, DateTime endDate, int numberOfPeople)
+        public ReservationService(int placeID, DateTime startDate, DateTime endDate, int numberOfPeople)
         {
-            if (UserID == -1)
+            if (UserID == -1) // User not logged in
             {
-                return false; // User not logged in
+                notifService.ShowError("You must be logged in to make a reservation.");
             }
 
-            var dbFunc = new DBFunctions();
-
-            dbFunc.InsertReservation(placeID, startDate, endDate, numberOfPeople, UserID);
-            return true;
+            dbFunctions.InsertReservation(placeID, startDate, endDate, numberOfPeople, UserID);
         }
     }
 }

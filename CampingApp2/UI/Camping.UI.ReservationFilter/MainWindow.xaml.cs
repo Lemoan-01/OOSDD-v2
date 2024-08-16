@@ -10,7 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Camping.UI.ReservationFilter
+namespace Camping_UI_ReservationFilter
 {
     /// <summary>
     /// Interaction logic for ReservationFilter.xaml

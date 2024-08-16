@@ -34,6 +34,20 @@
           }
         }
       },
+      "Camping_BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_DataAccess_Functions": "1.0.0",
+          "NotificationService": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_BLL.dll": {}
+        }
+      },
       "Camping_DataAccess_Functions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -163,6 +177,11 @@
         "mysqlconnector.nuspec"
       ]
     },
+    "Camping_BLL/1.0.0": {
+      "type": "project",
+      "path": "../Camping_BLL/Camping_BLL.csproj",
+      "msbuildProject": "../Camping_BLL/Camping_BLL.csproj"
+    },
     "Camping_DataAccess_Functions/1.0.0": {
       "type": "project",
       "path": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj",
@@ -176,6 +195,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Camping_BLL >= 1.0.0",
       "Camping_DataAccess_Functions >= 1.0.0"
     ]
   },
@@ -211,6 +231,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
+            },
             "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
               "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj"
             }

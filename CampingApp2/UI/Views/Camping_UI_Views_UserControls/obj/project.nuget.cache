@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RSKcCcTwBhxx48MTMwbjWOhTO5vep28GtwGz830klgDzyFbAe98fLSha7cqsl8TM/UVu1ybsaof61luhxWx+Ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Views\\Camping_UI_Views_UserControls\\Camping_UI_Views_UserControls.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leond\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

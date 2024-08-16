@@ -1,48 +1,40 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using System.Windows.Media;
-using Camping.DataAccess.Functions;
-using Camping.UI.DescriptionPop;
+using System.Windows;
+using Camping_UI_DescriptionPop;
+using ObserverDeck;
+using Camping_BLL;
 
 namespace Camping_BLL_Map
 {
-    public class ReservationLogic
+    public class ReservationLogic : BaseLogic
     {
-        private readonly MainWindow _reservation;
+        private readonly UIObserver _uiObserver;
         private int placeID = 0;
         private SpotDescriptionPop sdp;
 
-        public ReservationLogic(Reservation reservation)
+        public ReservationLogic(UIObserver uiObserver)
         {
-            _reservation = reservation;
+            _uiObserver = uiObserver;
         }
 
         public async Task LoadDataAsync()
         {
-            DBFunctions dbFunc = new DBFunctions();
-            var buttons = _reservation.GetMapGrid().Children.OfType<Button>();
+            var buttons = _uiObserver.GetMapGridButtons();
             int bID = 0;
 
-            foreach (var button in buttons)
+            foreach (Button button in buttons)
             {
                 if (int.TryParse(button.Content.ToString(), out bID))
                 {
                     // Asynchronously wait for the result of isBlockedOnID
-                    bool isBlocked = await Task.Run(() => dbFunc.isBlockedOnID(bID));
+                    bool isBlocked = await Task.Run(() => dbFunctions.isBlockedOnID(bID));
 
-                    if (isBlocked)
-                    {
-                        // UI updates need to be performed on the UI thread
-                        _reservation.Dispatcher.Invoke(() =>
-                        {
-                            button.IsHitTestVisible = false;
-                            button.Background = Brushes.Red;
-                        });
-                    }
+                    // Notify the UI observer to update the UI
+                    _uiObserver.UpdateMap(bID, isBlocked);
                 }
             }
         }

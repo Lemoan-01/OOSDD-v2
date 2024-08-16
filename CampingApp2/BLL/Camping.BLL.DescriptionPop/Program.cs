@@ -1,27 +1,25 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Media.Imaging;
-using Camping.DataAccess.Functions;
+using Camping_BLL;
 
 namespace Camping.BLL.HomePage
 {
-    public class SpotDescriptionLogic
+    public class SpotDescriptionLogic : BaseLogic
     {
-        private DBFunctions dbFunc;
 
         public SpotDescriptionLogic()
         {
-            dbFunc = new DBFunctions();
         }
 
         public string GetSpotDescription(int placeID)
         {
-            return dbFunc.GetDescription(placeID);
+            return dbFunctions.GetDescription(placeID);
         }
 
         public byte[] GetSpotImage(int placeID)
         {
-            return dbFunc.GetImageFromDatabase(placeID);
+            return dbFunctions.GetImageFromDatabase(placeID);
         }
 
         public BitmapImage ByteArrayToBitmapImage(byte[] byteArray)

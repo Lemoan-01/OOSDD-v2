@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\DataAccess\Camping.DataAccess.Functions\Camping_DataAccess_Functions.csproj" />
+    <ProjectReference Include="..\Camping_BLL\Camping_BLL.csproj" />
   </ItemGroup>
 
 </Project>

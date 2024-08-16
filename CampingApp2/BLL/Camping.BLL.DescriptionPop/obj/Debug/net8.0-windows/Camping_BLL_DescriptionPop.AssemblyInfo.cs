@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Camping_BLL_DescriptionPop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4228b254dd7c2cdac1317d30fad9536a9b901c32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+051daedc4de7c01aa8258683e9732828d13abf13")]
 [assembly: System.Reflection.AssemblyProductAttribute("Camping_BLL_DescriptionPop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Camping_BLL_DescriptionPop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 ﻿using Camping.BLL.HomePage;
+using Camping_BLL_ReservationFilter;
 using System;
 using System.Windows;
 using System.Windows.Controls;
@@ -6,7 +7,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace Camping.UI.DescriptionPop
+namespace Camping_UI_DescriptionPop
 {
     public partial class SpotDescriptionPop : Window
     {
@@ -80,12 +81,12 @@ namespace Camping.UI.DescriptionPop
             }
             else
             {
-                DateTime startDate = ReservationFilter.firstDates;
-                DateTime endDate = ReservationFilter.lastDates;
+                DateTime startDate = ReservationFilterLogic.FirstDates;
+                DateTime endDate = ReservationFilterLogic.LastDates;
 
                 if (!startDate.Equals(DateTime.MinValue) && !endDate.Equals(DateTime.MinValue)) //als ze allebei niet hun default-waarde zijn
                 {
-                    MakeReservationPage.MainWindow mk = new MakeReservationPage.MainWindow(placeID, startDate, endDate);
+                    Camping.BLL.MakeReservationPage.ReservationService mk = new Camping.BLL.MakeReservationPage.ReservationService(placeID, startDate, endDate, 5);
                     mk.Show();
                 }
                 else

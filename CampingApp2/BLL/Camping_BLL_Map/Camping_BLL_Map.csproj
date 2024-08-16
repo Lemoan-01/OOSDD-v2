@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\Camping.DataAccess.Functions\Camping_DataAccess_Functions.csproj" />
+    <ProjectReference Include="..\..\UI\Camping.UI.DescriptionPop\Camping_UI_DescriptionPop.csproj" />
+    <ProjectReference Include="..\Camping_BLL\Camping_BLL.csproj" />
+    <ProjectReference Include="..\ObserverDeck\ObserverDeck.csproj" />
   </ItemGroup>
 
 </Project>

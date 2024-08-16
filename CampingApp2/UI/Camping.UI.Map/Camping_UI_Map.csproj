@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>   
+	  <ProjectReference Include="..\..\BLL\Camping.BLL.ReservationFilter\Camping_BLL_ReservationFilter.csproj" />   
+	  <ProjectReference Include="..\..\BLL\Camping_BLL_Map\Camping_BLL_Map.csproj" /> 
+	  <ProjectReference Include="..\..\BLL\ObserverDeck\ObserverDeck.csproj" /> 
+	  <ProjectReference Include="..\Camping.UI.ReservationFilter\Camping_UI_ReservationFilter.csproj" />
+  </ItemGroup>
+
+</Project>

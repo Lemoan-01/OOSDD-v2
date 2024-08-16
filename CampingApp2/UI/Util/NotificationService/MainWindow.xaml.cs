@@ -20,7 +20,7 @@ namespace NotificationService
         {
             MessageText.Text = message;
 
-            gridNotif.Background = Brushes.OrangeRed; //differetiation 4 now
+            gridNotif.Background = Brushes.OrangeRed; //differetiation for now
             InitializeComponent();
         }
         public void ShowInfo(string message)
@@ -31,7 +31,7 @@ namespace NotificationService
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine("kanekr");
+            //precies niks
         }
     }
 }

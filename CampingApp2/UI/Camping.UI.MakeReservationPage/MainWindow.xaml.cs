@@ -7,13 +7,11 @@ namespace Camping.UI.MakeReservationPage
 {
     public partial class MainWindow : Window
     {
-        private readonly ReservationService reservationService;
         private int maxPeoplePerPlace = 12;
 
         public MainWindow()
         {
             InitializeComponent();
-            reservationService = new ReservationService();
 
             for (int i = 1; i <= maxPeoplePerPlace; i++)
             {
@@ -71,26 +69,8 @@ namespace Camping.UI.MakeReservationPage
                     });
 
                     int aantalPersonen = (int)aantPersonen.SelectedItem;
-                    bool result = reservationService.MakeReservation(1, DateTime.Now, DateTime.Now.AddDays(1), aantalPersonen);
-
-                    if (!result)
-                    {
-                        ShowNotLoggedInMessage();
-                    }
+                    new ReservationService(1, DateTime.Now, DateTime.Now.AddDays(1), aantalPersonen);
                 }
-            }
-        }
-
-        private void ShowNotLoggedInMessage()
-        {
-            // Show the message box with an OK button
-            MessageBoxResult result = MessageBox.Show("You are not logged in", "Confirmation", MessageBoxButton.OK);
-
-            // Check if the OK button was clicked
-            if (result == MessageBoxResult.OK)
-            {
-                // Close the window
-                this.Close();
             }
         }
     }

@@ -1,21 +1,19 @@
 ﻿// BusinessLogicLayer.cs
-using Camping.DataAccess.Functions;
+using Camping_BLL;
 using System;
 
 namespace Camping_BLL_HomePage
 {
-    public class BLLHomePage
+    public class BLLHomePage : BaseLogic
     {
-        private DBFunctions dbFunc;
 
         public BLLHomePage()
         {
-            dbFunc = new DBFunctions();
         }
 
         public string GetUserEmail(int userID)
         {
-            return dbFunc.GetEmail(userID);
+            return dbFunctions.GetEmail(userID);
         }
     }
 }

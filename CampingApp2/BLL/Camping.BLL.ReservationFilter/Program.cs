@@ -4,14 +4,13 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Reflection.Emit;
-using Camping.DataAccess.Functions;
+using Camping_BLL;
 
 namespace Camping_BLL_ReservationFilter
 {
-    public class ReservationFilterLogic
+    public class ReservationFilterLogic : BaseLogic
     {
         private readonly Window _window;
-        private DBFunctions _dbFunc;
         private int _dateSelectionCounter = 0;
         public static DateTime FirstDates { get; set; }
         public static DateTime LastDates { get; set; }
@@ -19,7 +18,6 @@ namespace Camping_BLL_ReservationFilter
         public ReservationFilterLogic(Window window)
         {
             _window = window;
-            _dbFunc = new DBFunctions();
         }
 
         public void UpdatePosition()
@@ -86,12 +84,12 @@ namespace Camping_BLL_ReservationFilter
 
         public void HandleButtonClick()
         {
-            var reservationWindow = Reservation.Instance;
+            var reservationWindow = Camping_UI_Map.Instance;
             reservationWindow.LoadDataAsync();
 
             if (reservationWindow != null && ((DatePicker)_window.FindName("StartDatePicker")).SelectedDate != null && ((DatePicker)_window.FindName("EndDatePicker")).SelectedDate != null)
             {
-                if (_dbFunc.IsConnectionAvailable())
+                if (dbFunctions.IsConnectionAvailable())
                 {
                     Grid mapGrid = reservationWindow.GetMapGrid();
                     int btnCounter = 0;
@@ -100,7 +98,7 @@ namespace Camping_BLL_ReservationFilter
                     {
                         if (child is Button button && button.Name != "btnInformation")
                         {
-                            bool isAvailable = _dbFunc.isAvailable(btnCounter, (DateTime)((DatePicker)_window.FindName("StartDatePicker")).SelectedDate, (DateTime)((DatePicker)_window.FindName("EndDatePicker")).SelectedDate);
+                            bool isAvailable = dbFunctions.isAvailable(btnCounter, (DateTime)((DatePicker)_window.FindName("StartDatePicker")).SelectedDate, (DateTime)((DatePicker)_window.FindName("EndDatePicker")).SelectedDate);
                             if (!isAvailable)
                             {
                                 button.Background = Brushes.OrangeRed;
