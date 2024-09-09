@@ -84,7 +84,7 @@ namespace Camping_BLL_ReservationFilter
 
         public void HandleButtonClick()
         {
-            var reservationWindow = Camping_UI_Map.Instance;
+            var reservationWindow = Camping_UI_Map.Instance; //var vervangen pls
             reservationWindow.LoadDataAsync();
 
             if (reservationWindow != null && ((DatePicker)_window.FindName("StartDatePicker")).SelectedDate != null && ((DatePicker)_window.FindName("EndDatePicker")).SelectedDate != null)

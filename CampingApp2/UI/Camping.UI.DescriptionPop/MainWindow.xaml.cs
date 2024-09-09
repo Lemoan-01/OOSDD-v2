@@ -87,7 +87,7 @@ namespace Camping_UI_DescriptionPop
                 if (!startDate.Equals(DateTime.MinValue) && !endDate.Equals(DateTime.MinValue)) //als ze allebei niet hun default-waarde zijn
                 {
                     Camping.BLL.MakeReservationPage.ReservationService mk = new Camping.BLL.MakeReservationPage.ReservationService(placeID, startDate, endDate, 5);
-                    mk.Show();
+                    //mk.Show();
                 }
                 else
                 {

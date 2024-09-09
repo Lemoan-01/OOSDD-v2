@@ -1,5 +1,6 @@
 ﻿using Menu;
 using System.Windows.Input;
+using NotificationService;
 
 namespace ViewModels
 {
