@@ -1,0 +1,12 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\bin\Debug\net8.0-windows\ObserverDeck.deps.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\bin\Debug\net8.0-windows\ObserverDeck.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\bin\Debug\net8.0-windows\ObserverDeck.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.sourcelink.json
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\refint\ObserverDeck.dll
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ObserverDeck.pdb
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ObserverDeck\obj\Debug\net8.0-windows\ref\ObserverDeck.dll

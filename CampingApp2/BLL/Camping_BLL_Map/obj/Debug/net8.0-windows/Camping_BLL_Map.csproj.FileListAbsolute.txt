@@ -1,0 +1,6 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\obj\Debug\net8.0-windows\Camping_BLL_Map.csproj.AssemblyReference.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\obj\Debug\net8.0-windows\Camping_BLL_Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\obj\Debug\net8.0-windows\Camping_BLL_Map.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\obj\Debug\net8.0-windows\Camping_BLL_Map.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\obj\Debug\net8.0-windows\Camping_BLL_Map.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping_BLL_Map\obj\Debug\net8.0-windows\Camping_BLL_Map.sourcelink.json
