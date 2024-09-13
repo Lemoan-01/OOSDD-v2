@@ -4,16 +4,27 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using NotificationService;
+using System.Xml.Serialization;
+
 
 namespace Camping.DataAccess.Functions
 {
     public class DBFunctions
     {
-        public string connectionString = "Server=localhost;Port=3306;Database=CampingDB;Uid=kbs;Pwd=camping;";
+        private string connectionstring;
         private NotificationService.MainWindow notif;
 
         public DBFunctions()
         {
+            string server = "localhost";
+            string database = "campingdata";
+            string username = "root";
+            string password = "";
+
+            LocalConnection localConnection = new LocalConnection(server, database, username, password);
+            connectionstring = localConnection.GetConnectionString();
+
+
             notif = new NotificationService.MainWindow();
         }
 
@@ -21,7 +32,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (var connection = new MySqlConnection(connectionString))
+                using (var connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
                     return true;
@@ -36,7 +47,7 @@ namespace Camping.DataAccess.Functions
 
         public void InsertData(string query, params MySqlParameter[] parameters)
         {
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            using (MySqlConnection connection = new MySqlConnection(connectionstring))
             {
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
@@ -60,7 +71,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (var connection = new MySqlConnection(connectionString))
+                using (var connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
                     string query = "UPDATE place SET price = @newPrice WHERE placeID = @placeID;";
@@ -88,7 +99,7 @@ namespace Camping.DataAccess.Functions
 
             try
             {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                using (MySqlConnection connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
                     string query = "SELECT reservationID FROM reservations WHERE userID = @userID AND startDate > @currDate;";
@@ -123,7 +134,7 @@ namespace Camping.DataAccess.Functions
 
             try
             {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                using (MySqlConnection connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -153,7 +164,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (var connection = new MySqlConnection(connectionString))
+                using (var connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -203,7 +214,7 @@ namespace Camping.DataAccess.Functions
 
             try
             {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                using (MySqlConnection conn = new MySqlConnection(connectionstring))
                 {
                     conn.Open();
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
@@ -241,7 +252,7 @@ namespace Camping.DataAccess.Functions
 
             try
             {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                using (MySqlConnection conn = new MySqlConnection(connectionstring))
                 {
                     conn.Open();
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
@@ -267,7 +278,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                using (MySqlConnection connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
                     string query = "SELECT isBlocked FROM place WHERE placeID = @placeID;";
@@ -300,7 +311,7 @@ namespace Camping.DataAccess.Functions
 
             try
             {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                using (MySqlConnection connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -342,7 +353,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                using (MySqlConnection connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -383,7 +394,7 @@ namespace Camping.DataAccess.Functions
 
             try
             {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                using (MySqlConnection connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -412,7 +423,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (var connection = new MySqlConnection(connectionString))
+                using (var connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -440,7 +451,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (var connection = new MySqlConnection(connectionString))
+                using (var connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
 
@@ -463,7 +474,7 @@ namespace Camping.DataAccess.Functions
 
         public object ExecuteScalar(string query, params MySqlParameter[] parameters)
         {
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            using (MySqlConnection connection = new MySqlConnection(connectionstring))
             {
                 try
                 {
@@ -485,7 +496,7 @@ namespace Camping.DataAccess.Functions
         {
             try
             {
-                using (var connection = new MySqlConnection(connectionString))
+                using (var connection = new MySqlConnection(connectionstring))
                 {
                     connection.Open();
                     string sql = "SELECT images FROM place WHERE PlaceID = @PlaceID";

@@ -1,3 +1,6 @@
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.Map\obj\Debug\net8.0-windows\Camping_UI_Map.csproj.AssemblyReference.cache
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.Map\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.Map\obj\Debug\net8.0-windows\Camping_UI_Map_MarkupCompile.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.Map\obj\Debug\net8.0-windows\Camping_UI_Map.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.Map\obj\Debug\net8.0-windows\App.g.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.Map\obj\Debug\net8.0-windows\Camping_UI_Map_MarkupCompile.cache

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{120A7975-7128-41DA-9406-DCAC80BECF81}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{120A7975-7128-41DA-9406-DCAC80BECF81}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{9DC26E62-8924-4472-839F-576B0F59C419}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{9DC26E62-8924-4472-839F-576B0F59C419}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{557E5FB5-AA45-494A-8BEF-B744B7B480FD}"
 EndProject
@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_HomePage", "UI\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_ReservationFilter", "UI\Camping.UI.ReservationFilter\Camping_UI_ReservationFilter.csproj", "{4438B855-12FC-4ED4-A622-362623912233}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_DataAccess_Functions", "DataAccess\Camping.DataAccess.Functions\Camping_DataAccess_Functions.csproj", "{681923D4-AEB7-4C5B-B3A3-66EC82361D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_Data", "DataAccess\Camping.DataAccess.Functions\Camping_Data.csproj", "{681923D4-AEB7-4C5B-B3A3-66EC82361D68}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_MakeReservationPage", "UI\Camping.UI.MakeReservationPage\Camping_UI_MakeReservationPage.csproj", "{6D14E72C-75C3-4258-8CD7-F28A8123C10D}"
 EndProject
@@ -53,9 +53,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_Map", "UI\Campin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDeck", "BLL\ObserverDeck\ObserverDeck.csproj", "{E179EEAA-B982-4237-81A7-DCE60332F266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camping_BLL", "BLL\Camping_BLL\Camping_BLL.csproj", "{90CE218B-2395-4D9B-B4F3-DA47DEFFF759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_BLL", "BLL\Camping_BLL\Camping_BLL.csproj", "{90CE218B-2395-4D9B-B4F3-DA47DEFFF759}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping_UI_Views_UserControls", "UI\Views\Camping_UI_Views_UserControls\Camping_UI_Views_UserControls.csproj", "{71BEDEC0-695F-497F-A205-04E5EBA0739E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{63978F50-5B4F-4E53-AF9C-29EC240B193A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{60CC21CF-79C2-4D12-8D69-326A8B400ACB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2FD448FF-DC7E-423B-B571-1386F4EA5833}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "ClassLogics\Services.csproj", "{F26B6ED3-8DBD-48CD-A741-A53BC85C1BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +143,14 @@ Global
 		{71BEDEC0-695F-497F-A205-04E5EBA0739E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71BEDEC0-695F-497F-A205-04E5EBA0739E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71BEDEC0-695F-497F-A205-04E5EBA0739E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CC21CF-79C2-4D12-8D69-326A8B400ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CC21CF-79C2-4D12-8D69-326A8B400ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CC21CF-79C2-4D12-8D69-326A8B400ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CC21CF-79C2-4D12-8D69-326A8B400ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26B6ED3-8DBD-48CD-A741-A53BC85C1BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26B6ED3-8DBD-48CD-A741-A53BC85C1BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26B6ED3-8DBD-48CD-A741-A53BC85C1BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26B6ED3-8DBD-48CD-A741-A53BC85C1BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +179,10 @@ Global
 		{E179EEAA-B982-4237-81A7-DCE60332F266} = {9DC26E62-8924-4472-839F-576B0F59C419}
 		{90CE218B-2395-4D9B-B4F3-DA47DEFFF759} = {9DC26E62-8924-4472-839F-576B0F59C419}
 		{71BEDEC0-695F-497F-A205-04E5EBA0739E} = {458C2234-6979-4D40-BF7E-F0C1EF4DFFBB}
+		{63978F50-5B4F-4E53-AF9C-29EC240B193A} = {9DC26E62-8924-4472-839F-576B0F59C419}
+		{60CC21CF-79C2-4D12-8D69-326A8B400ACB} = {63978F50-5B4F-4E53-AF9C-29EC240B193A}
+		{2FD448FF-DC7E-423B-B571-1386F4EA5833} = {9DC26E62-8924-4472-839F-576B0F59C419}
+		{F26B6ED3-8DBD-48CD-A741-A53BC85C1BB7} = {2FD448FF-DC7E-423B-B571-1386F4EA5833}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C4C548-5A7C-4F33-947D-70E035FE841F}

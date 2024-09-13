@@ -4,3 +4,7 @@ C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debu
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_HomePage_MarkupCompile.cache
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_HomePage_MarkupCompile.lref
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_HomePage.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\App.g.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_HomePage_MarkupCompile.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_HomePage_MarkupCompile.lref

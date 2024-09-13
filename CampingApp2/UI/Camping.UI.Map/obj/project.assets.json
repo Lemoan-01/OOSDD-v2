@@ -339,24 +339,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leond\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\thimo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.Map\\Camping_UI_Map.csproj",
+      "projectUniqueName": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.Map\\Camping_UI_Map.csproj",
       "projectName": "Camping_UI_Map",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.Map\\Camping_UI_Map.csproj",
-      "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.Map\\obj\\",
+      "projectPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.Map\\Camping_UI_Map.csproj",
+      "packagesPath": "C:\\Users\\thimo\\.nuget\\packages\\",
+      "outputPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.Map\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\thimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -364,23 +359,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj"
+            "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj": {
+              "projectPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj"
+            "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj": {
+              "projectPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj"
+            "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
+              "projectPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj"
+            "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
+              "projectPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj"
             }
           }
         }
@@ -389,6 +385,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -413,7 +414,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

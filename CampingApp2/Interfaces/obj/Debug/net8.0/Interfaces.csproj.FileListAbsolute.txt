@@ -1,0 +1,12 @@
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\bin\Debug\net8.0\Interfaces.deps.json
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\bin\Debug\net8.0\Interfaces.dll
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\bin\Debug\net8.0\Interfaces.pdb
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.sourcelink.json
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.dll
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\Interfaces.pdb
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll

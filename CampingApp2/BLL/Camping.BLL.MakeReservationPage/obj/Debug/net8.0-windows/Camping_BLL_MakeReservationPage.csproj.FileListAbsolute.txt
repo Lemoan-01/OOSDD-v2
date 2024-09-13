@@ -4,3 +4,9 @@ C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.MakeReservation
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.AssemblyInfo.cs
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.csproj.CoreCompileInputs.cache
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.sourcelink.json
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.MakeReservationPage\obj\Debug\net8.0-windows\Camping_BLL_MakeReservationPage.sourcelink.json

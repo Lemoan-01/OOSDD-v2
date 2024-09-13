@@ -1,0 +1,6 @@
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\ClassLogics\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\ClassLogics\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\ClassLogics\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\ClassLogics\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\ClassLogics\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\ClassLogics\obj\Debug\net8.0\Services.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Camping_DataAccess_Functions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f1304e2e50ba519590e5e61a2fbe81dd78d03c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c196542b2b585fff3c9f03c64cd99e7b265bbdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Camping_DataAccess_Functions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Camping_DataAccess_Functions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

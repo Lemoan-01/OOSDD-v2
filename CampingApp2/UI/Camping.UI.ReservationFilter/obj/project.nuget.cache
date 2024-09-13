@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3ob1jfTje7Fnt/CYEgHJvSrPykrc/6g202/KCmzi7X1sdM7uRseigI6BIRiybtW/S7R5muP36Mm4+SZnIi32JA==",
+  "dgSpecHash": "4tp2XL8y/8A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj",
+  "projectFilePath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\leond\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
-    "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
+    "C:\\Users\\thimo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\thimo\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
   ],
   "logs": []
 }

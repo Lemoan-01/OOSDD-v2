@@ -1,0 +1,2 @@
+idUser,email,Phonenumber,wachtwoord,isAdmin
+0,admin@camping.nl,06-12345678,NULL,1

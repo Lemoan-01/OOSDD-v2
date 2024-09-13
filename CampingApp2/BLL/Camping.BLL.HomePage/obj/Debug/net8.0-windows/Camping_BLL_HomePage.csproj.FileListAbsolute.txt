@@ -4,3 +4,9 @@ C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\De
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.AssemblyInfo.cs
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.csproj.CoreCompileInputs.cache
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.sourcelink.json
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\BLL\Camping.BLL.HomePage\obj\Debug\net8.0-windows\Camping_BLL_HomePage.sourcelink.json

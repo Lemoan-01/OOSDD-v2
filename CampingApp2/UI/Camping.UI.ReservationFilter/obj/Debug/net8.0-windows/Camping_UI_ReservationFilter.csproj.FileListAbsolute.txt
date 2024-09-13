@@ -3,3 +3,8 @@ C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping_UI_ReservationFilter_MarkupCompile.cache
 C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping_UI_ReservationFilter_MarkupCompile.lref
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping_UI_ReservationFilter.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\App.g.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping_UI_ReservationFilter_MarkupCompile.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\UI\Camping.UI.ReservationFilter\obj\Debug\net8.0-windows\Camping_UI_ReservationFilter_MarkupCompile.lref

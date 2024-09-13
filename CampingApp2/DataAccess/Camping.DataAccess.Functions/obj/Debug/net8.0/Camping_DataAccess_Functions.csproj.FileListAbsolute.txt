@@ -1,0 +1,6 @@
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping_DataAccess_Functions.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping_DataAccess_Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping_DataAccess_Functions.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping_DataAccess_Functions.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping_DataAccess_Functions.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0\Camping_DataAccess_Functions.sourcelink.json
