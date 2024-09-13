@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BLL\Camping.BLL.DescriptionPop\Camping_BLL_DescriptionPop.csproj" />
-    <ProjectReference Include="..\..\BLL\Camping.BLL.MakeReservationPage\Camping_BLL_MakeReservationPage.csproj" />
+    <ProjectReference Include="..\..\Model\Camping.BLL.DescriptionPop\Camping_BLL_DescriptionPop.csproj" />
+    <ProjectReference Include="..\..\Model\Camping.BLL.MakeReservationPage\Camping_BLL_MakeReservationPage.csproj" />
     <ProjectReference Include="..\Camping.UI.ReservationFilter\Camping_UI_ReservationFilter.csproj" />
   </ItemGroup>
 

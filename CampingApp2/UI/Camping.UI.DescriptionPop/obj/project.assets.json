@@ -39,7 +39,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Camping_Data": "1.0.0",
-          "Camping_DataAccess_Functions": "1.0.0",
           "NotificationService": "1.0.0"
         },
         "compile": {
@@ -54,7 +53,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Camping_BLL": "1.0.0",
-          "Camping_DataAccess_Functions": "1.0.0"
+          "Camping_Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Camping_BLL_DescriptionPop.dll": {}
@@ -102,20 +101,6 @@
         },
         "runtime": {
           "bin/placeholder/Camping_Data.dll": {}
-        }
-      },
-      "Camping_DataAccess_Functions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MySqlConnector": "2.3.7",
-          "NotificationService": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Camping_DataAccess_Functions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Camping_DataAccess_Functions.dll": {}
         }
       },
       "Camping_UI_ReservationFilter/1.0.0": {
@@ -264,33 +249,28 @@
     },
     "Camping_BLL/1.0.0": {
       "type": "project",
-      "path": "../../BLL/Camping_BLL/Camping_BLL.csproj",
-      "msbuildProject": "../../BLL/Camping_BLL/Camping_BLL.csproj"
+      "path": "../../Model/Camping_BLL/Camping_BLL.csproj",
+      "msbuildProject": "../../Model/Camping_BLL/Camping_BLL.csproj"
     },
     "Camping_BLL_DescriptionPop/1.0.0": {
       "type": "project",
-      "path": "../../BLL/Camping.BLL.DescriptionPop/Camping_BLL_DescriptionPop.csproj",
-      "msbuildProject": "../../BLL/Camping.BLL.DescriptionPop/Camping_BLL_DescriptionPop.csproj"
+      "path": "../../Model/Camping.BLL.DescriptionPop/Camping_BLL_DescriptionPop.csproj",
+      "msbuildProject": "../../Model/Camping.BLL.DescriptionPop/Camping_BLL_DescriptionPop.csproj"
     },
     "Camping_BLL_MakeReservationPage/1.0.0": {
       "type": "project",
-      "path": "../../BLL/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj",
-      "msbuildProject": "../../BLL/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj"
+      "path": "../../Model/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj",
+      "msbuildProject": "../../Model/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj"
     },
     "Camping_BLL_ReservationFilter/1.0.0": {
       "type": "project",
-      "path": "../../BLL/Camping.BLL.ReservationFilter/Camping_BLL_ReservationFilter.csproj",
-      "msbuildProject": "../../BLL/Camping.BLL.ReservationFilter/Camping_BLL_ReservationFilter.csproj"
+      "path": "../../Model/Camping.BLL.ReservationFilter/Camping_BLL_ReservationFilter.csproj",
+      "msbuildProject": "../../Model/Camping.BLL.ReservationFilter/Camping_BLL_ReservationFilter.csproj"
     },
     "Camping_Data/1.0.0": {
       "type": "project",
       "path": "../../Data/Camping.Data/Camping_Data.csproj",
       "msbuildProject": "../../Data/Camping.Data/Camping_Data.csproj"
-    },
-    "Camping_DataAccess_Functions/1.0.0": {
-      "type": "project",
-      "path": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj",
-      "msbuildProject": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj"
     },
     "Camping_UI_ReservationFilter/1.0.0": {
       "type": "project",
@@ -304,8 +284,8 @@
     },
     "ObserverDeck/1.0.0": {
       "type": "project",
-      "path": "../../BLL/ObserverDeck/ObserverDeck.csproj",
-      "msbuildProject": "../../BLL/ObserverDeck/ObserverDeck.csproj"
+      "path": "../../Model/ObserverDeck/ObserverDeck.csproj",
+      "msbuildProject": "../../Model/ObserverDeck/ObserverDeck.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -342,11 +322,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Model\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Model\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj"
             },
-            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Model\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Model\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj"
             },
             "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
               "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj"

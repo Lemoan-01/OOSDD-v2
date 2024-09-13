@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BLL\Camping.BLL.HomePage\Camping_BLL_Index.csproj" />
-    <ProjectReference Include="..\..\BLL\Menu\Menu.csproj" />
+    <ProjectReference Include="..\..\Model\Camping.BLL.Index\Camping_BLL_Index.csproj" />
+    <ProjectReference Include="..\..\Model\Menu\Menu.csproj" />
     <ProjectReference Include="..\Styles\Styles.csproj" />
     <ProjectReference Include="..\Util\NotificationService\NotificationService.csproj" />
     <ProjectReference Include="..\Views\Camping_UI_Views_UserControls\Camping_UI_Views_UserControls.csproj" />

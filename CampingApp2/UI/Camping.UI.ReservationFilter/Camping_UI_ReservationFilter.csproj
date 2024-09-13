@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BLL\Camping.BLL.ReservationFilter\Camping_BLL_ReservationFilter.csproj" />
+    <ProjectReference Include="..\..\Model\Camping.BLL.ReservationFilter\Camping_BLL_ReservationFilter.csproj" />
   </ItemGroup>
 
 </Project>
