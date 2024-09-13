@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4xItK/wNG5F7aivczIVcejFEhXCnvA6OasSedf7s8C+U2yyXabtJWai8OKQnUa6wNEA4yEesoxSYawnvczjRuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Model\\Camping_BLL\\Camping_BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leond\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
+  ],
+  "logs": []
+}

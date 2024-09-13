@@ -1,0 +1,12 @@
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\bin\Debug\net8.0-windows\Interfaces.deps.json
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\bin\Debug\net8.0-windows\Interfaces.dll
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\bin\Debug\net8.0-windows\Interfaces.pdb
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.AssemblyInfoInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.AssemblyInfo.cs
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.sourcelink.json
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.dll
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\refint\Interfaces.dll
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\Interfaces.pdb
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Interfaces\obj\Debug\net8.0-windows\ref\Interfaces.dll

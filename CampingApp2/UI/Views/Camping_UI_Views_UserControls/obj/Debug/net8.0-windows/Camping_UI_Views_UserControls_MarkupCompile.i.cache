@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Views\Camping_UI_Views_UserControls\obj\Debug\net8.0-windows\
+C:\Users\leond\source\OOSDD-v2\CampingApp2\UI\Views\Camping_UI_Views_UserControls\obj\Debug\net8.0-windows\
 Camping_UI_Views_UserControls
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 7-1637213605
 
 11130636189
-215-2045206914
+206204114925
 Account.xaml;Admin.xaml;Home.xaml;Loading.xaml;Login.xaml;Map.xaml;Register.xaml;
 
 False

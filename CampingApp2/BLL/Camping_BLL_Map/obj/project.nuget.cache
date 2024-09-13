@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rMKsR7Ee5pDg/PfkKP12XeTg2wlEukjINjigQqfVurJpDIXVrLkw4bE68+FPmxDgbJBJHKNiktUf57isd8F/Pg==",
+  "dgSpecHash": "1diDZ3QPOHNUkX3t42ZZAcSR+rXiC+UIxesM6jrAI1TGoLQTFLcf19pgAH1LFCh6aQRUtJkBYQsEGLFUzzDeWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj",
+  "projectFilePath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leond\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"

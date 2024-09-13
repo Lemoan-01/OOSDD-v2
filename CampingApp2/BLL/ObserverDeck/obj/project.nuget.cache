@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PoPTav6+lFDmHkDgY6GqTRwFWHKUBdXi9vs4az8HvOCbdH4UQ8KgFyARCC2JjnnZVBWFbEHOAMWE3MsxT7mXVA==",
+  "dgSpecHash": "SZBdTV8Z0xWPPNawFRpZ/4x37/UHN11Kkl9H53EK21spbFiIORF186huwRwTneNSGHWy4jpDeimm45VxzsadMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj",
+  "projectFilePath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

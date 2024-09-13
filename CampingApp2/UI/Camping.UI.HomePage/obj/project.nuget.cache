@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "65H1gNgeUt/WV9m/OX9Lx8RaIsfzCNe2rDMr0HEldahJ5ZBMdzQc+siiBNrnhay8eAOq2lFW0UCsKnjViw45RQ==",
+  "dgSpecHash": "HdbDrYDz1l5k3dww2P1ZL2a2mQK16I4w4+dq9eTprojKaeeSUZNOBm5tRkCPz1iIHupTO+jN5xXcUrdhpP+2xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_Index.csproj",
+  "projectFilePath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_Index.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leond\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
-    "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
+    "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512",
+    "C:\\Users\\leond\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
   ],
   "logs": []
 }

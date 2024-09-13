@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj": {}
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj",
         "projectName": "Camping_BLL_DescriptionPop",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
               },
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj"
               }
             }
           }
@@ -45,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj",
         "projectName": "Camping_BLL_MakeReservationPage",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +95,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
               }
             }
           }
@@ -108,6 +105,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -129,25 +131,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj",
         "projectName": "Camping_BLL_ReservationFilter",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,8 +159,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
+              },
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj"
               }
             }
           }
@@ -171,6 +172,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -192,25 +198,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj",
         "projectName": "Camping_BLL",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -224,11 +226,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj"
               },
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Data\\Camping.Data\\Camping_Data.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Data\\Camping.Data\\Camping_Data.csproj"
+              },
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
               }
             }
           }
@@ -237,6 +242,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -258,25 +268,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj",
         "projectName": "Camping_BLL_Map",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\Camping_BLL_Map.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL_Map\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL_Map\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -290,14 +296,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping_BLL\\Camping_BLL.csproj"
               },
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj"
               },
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj"
               }
             }
           }
@@ -306,6 +312,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -327,25 +338,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj",
         "projectName": "ObserverDeck",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\ObserverDeck.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ObserverDeck\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ObserverDeck\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -365,6 +372,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -389,25 +401,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
         "projectName": "Camping_DataAccess_Functions",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -421,8 +429,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
               }
             }
           }
@@ -431,6 +439,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -458,25 +471,91 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Data\\Camping.Data\\Camping_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Data\\Camping.Data\\Camping_Data.csproj",
+        "projectName": "Camping_Data",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Data\\Camping.Data\\Camping_Data.csproj",
+        "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\Data\\Camping.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj",
         "projectName": "Camping_UI_DescriptionPop",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\Camping_UI_DescriptionPop.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.DescriptionPop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -490,14 +569,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.DescriptionPop\\Camping_BLL_DescriptionPop.csproj"
               },
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.MakeReservationPage\\Camping_BLL_MakeReservationPage.csproj"
               },
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj"
               }
             }
           }
@@ -506,6 +585,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -530,25 +614,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj",
         "projectName": "Camping_UI_ReservationFilter",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\Camping_UI_ReservationFilter.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.ReservationFilter\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -562,8 +642,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj": {
-                "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj"
+              "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj": {
+                "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.ReservationFilter\\Camping_BLL_ReservationFilter.csproj"
               }
             }
           }
@@ -572,6 +652,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -596,25 +681,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+    "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj",
+        "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj",
         "projectName": "NotificationService",
-        "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj",
+        "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj",
         "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\obj\\",
+        "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -634,6 +715,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -658,7 +744,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

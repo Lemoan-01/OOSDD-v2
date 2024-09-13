@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fzYlDnbTExUa4E4HelyEHfSijhv8zRpCztPKwlYYBBvGefLJDvi5rRKlmgr3w6TkXgREXfWnAY+Tm+tMDxsq6A==",
+  "dgSpecHash": "l19EFk7dYVKinm/+6VECAVHN+qd6bY8WvAGkPrGMlVWx8nmjQYmBYD0RdkXme88LslgWQ6LPFl76FZuAmzwphw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ViewModels\\ViewModels.csproj",
+  "projectFilePath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\ViewModels\\ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leond\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"

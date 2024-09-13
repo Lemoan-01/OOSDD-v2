@@ -162,24 +162,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leond\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\leond\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
       "projectName": "Camping_DataAccess_Functions",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
+      "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\Camping_DataAccess_Functions.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\obj\\",
+      "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\DataAccess\\Camping.DataAccess.Functions\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -193,8 +188,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
             }
           }
         }
@@ -203,6 +198,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -230,7 +230,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

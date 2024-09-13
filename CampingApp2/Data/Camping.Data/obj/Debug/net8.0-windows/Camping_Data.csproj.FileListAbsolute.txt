@@ -1,0 +1,6 @@
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Data\Camping.Data\obj\Debug\net8.0-windows\Camping_Data.csproj.AssemblyReference.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Data\Camping.Data\obj\Debug\net8.0-windows\Camping_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Data\Camping.Data\obj\Debug\net8.0-windows\Camping_Data.AssemblyInfoInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Data\Camping.Data\obj\Debug\net8.0-windows\Camping_Data.AssemblyInfo.cs
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Data\Camping.Data\obj\Debug\net8.0-windows\Camping_Data.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\Data\Camping.Data\obj\Debug\net8.0-windows\Camping_Data.sourcelink.json

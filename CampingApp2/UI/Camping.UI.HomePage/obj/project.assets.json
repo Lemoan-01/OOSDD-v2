@@ -34,10 +34,27 @@
           }
         }
       },
+      "WpfAnimatedGif/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Camping_BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Camping_Data": "1.0.0",
           "Camping_DataAccess_Functions": "1.0.0",
           "NotificationService": "1.0.0"
         },
@@ -46,6 +63,20 @@
         },
         "runtime": {
           "bin/placeholder/Camping_BLL.dll": {}
+        }
+      },
+      "Camping_BLL_DescriptionPop/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL": "1.0.0",
+          "Camping_DataAccess_Functions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_BLL_DescriptionPop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_BLL_DescriptionPop.dll": {}
         }
       },
       "Camping_BLL_Index/1.0.0": {
@@ -61,6 +92,62 @@
           "bin/placeholder/Camping_BLL_Index.dll": {}
         }
       },
+      "Camping_BLL_MakeReservationPage/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_BLL_MakeReservationPage.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_BLL_MakeReservationPage.dll": {}
+        }
+      },
+      "Camping_BLL_Map/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL": "1.0.0",
+          "Camping_UI_DescriptionPop": "1.0.0",
+          "ObserverDeck": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_BLL_Map.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_BLL_Map.dll": {}
+        }
+      },
+      "Camping_BLL_ReservationFilter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL": "1.0.0",
+          "ObserverDeck": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_BLL_ReservationFilter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_BLL_ReservationFilter.dll": {}
+        }
+      },
+      "Camping_Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MySqlConnector": "2.3.7",
+          "NotificationService": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_Data.dll": {}
+        }
+      },
       "Camping_DataAccess_Functions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -74,6 +161,62 @@
         "runtime": {
           "bin/placeholder/Camping_DataAccess_Functions.dll": {}
         }
+      },
+      "Camping_UI_DescriptionPop/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL_DescriptionPop": "1.0.0",
+          "Camping_BLL_MakeReservationPage": "1.0.0",
+          "Camping_UI_ReservationFilter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_UI_DescriptionPop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_UI_DescriptionPop.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Camping_UI_ReservationFilter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL_ReservationFilter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Camping_UI_ReservationFilter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_UI_ReservationFilter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Camping_UI_Views_UserControls/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Camping_BLL_Map": "1.0.0",
+          "Camping_BLL_ReservationFilter": "1.0.0",
+          "Camping_UI_ReservationFilter": "1.0.0",
+          "ObserverDeck": "1.0.0",
+          "Styles": "1.0.0",
+          "ViewModels": "1.0.0",
+          "WpfAnimatedGif": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Camping_UI_Views_UserControls.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Camping_UI_Views_UserControls.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "Menu/1.0.0": {
         "type": "project",
@@ -96,6 +239,19 @@
         },
         "runtime": {
           "bin/placeholder/NotificationService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ObserverDeck/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ObserverDeck.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObserverDeck.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -231,20 +387,80 @@
         "mysqlconnector.nuspec"
       ]
     },
+    "WpfAnimatedGif/2.0.2": {
+      "sha512": "B0j9SqtThyHVTiOPvu6yR+39Te0g3o+7Jjb+qEm7+Iz1HRqbE5/4QV+ntHWOYYBPOUFr9x1mdzGl/EzWP+nKiA==",
+      "type": "package",
+      "path": "wpfanimatedgif/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WpfAnimatedGif.dll",
+        "lib/net35/WpfAnimatedGif.pdb",
+        "lib/net35/WpfAnimatedGif.xml",
+        "lib/net40/WpfAnimatedGif.dll",
+        "lib/net40/WpfAnimatedGif.pdb",
+        "lib/net40/WpfAnimatedGif.xml",
+        "lib/netcoreapp3.0/WpfAnimatedGif.dll",
+        "lib/netcoreapp3.0/WpfAnimatedGif.pdb",
+        "lib/netcoreapp3.0/WpfAnimatedGif.xml",
+        "wpfanimatedgif.2.0.2.nupkg.sha512",
+        "wpfanimatedgif.nuspec"
+      ]
+    },
     "Camping_BLL/1.0.0": {
       "type": "project",
       "path": "../../BLL/Camping_BLL/Camping_BLL.csproj",
       "msbuildProject": "../../BLL/Camping_BLL/Camping_BLL.csproj"
+    },
+    "Camping_BLL_DescriptionPop/1.0.0": {
+      "type": "project",
+      "path": "../../BLL/Camping.BLL.DescriptionPop/Camping_BLL_DescriptionPop.csproj",
+      "msbuildProject": "../../BLL/Camping.BLL.DescriptionPop/Camping_BLL_DescriptionPop.csproj"
     },
     "Camping_BLL_Index/1.0.0": {
       "type": "project",
       "path": "../../BLL/Camping.BLL.HomePage/Camping_BLL_Index.csproj",
       "msbuildProject": "../../BLL/Camping.BLL.HomePage/Camping_BLL_Index.csproj"
     },
+    "Camping_BLL_MakeReservationPage/1.0.0": {
+      "type": "project",
+      "path": "../../BLL/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj",
+      "msbuildProject": "../../BLL/Camping.BLL.MakeReservationPage/Camping_BLL_MakeReservationPage.csproj"
+    },
+    "Camping_BLL_Map/1.0.0": {
+      "type": "project",
+      "path": "../../BLL/Camping_BLL_Map/Camping_BLL_Map.csproj",
+      "msbuildProject": "../../BLL/Camping_BLL_Map/Camping_BLL_Map.csproj"
+    },
+    "Camping_BLL_ReservationFilter/1.0.0": {
+      "type": "project",
+      "path": "../../BLL/Camping.BLL.ReservationFilter/Camping_BLL_ReservationFilter.csproj",
+      "msbuildProject": "../../BLL/Camping.BLL.ReservationFilter/Camping_BLL_ReservationFilter.csproj"
+    },
+    "Camping_Data/1.0.0": {
+      "type": "project",
+      "path": "../../Data/Camping.Data/Camping_Data.csproj",
+      "msbuildProject": "../../Data/Camping.Data/Camping_Data.csproj"
+    },
     "Camping_DataAccess_Functions/1.0.0": {
       "type": "project",
       "path": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj",
       "msbuildProject": "../../DataAccess/Camping.DataAccess.Functions/Camping_DataAccess_Functions.csproj"
+    },
+    "Camping_UI_DescriptionPop/1.0.0": {
+      "type": "project",
+      "path": "../Camping.UI.DescriptionPop/Camping_UI_DescriptionPop.csproj",
+      "msbuildProject": "../Camping.UI.DescriptionPop/Camping_UI_DescriptionPop.csproj"
+    },
+    "Camping_UI_ReservationFilter/1.0.0": {
+      "type": "project",
+      "path": "../Camping.UI.ReservationFilter/Camping_UI_ReservationFilter.csproj",
+      "msbuildProject": "../Camping.UI.ReservationFilter/Camping_UI_ReservationFilter.csproj"
+    },
+    "Camping_UI_Views_UserControls/1.0.0": {
+      "type": "project",
+      "path": "../Views/Camping_UI_Views_UserControls/Camping_UI_Views_UserControls.csproj",
+      "msbuildProject": "../Views/Camping_UI_Views_UserControls/Camping_UI_Views_UserControls.csproj"
     },
     "Menu/1.0.0": {
       "type": "project",
@@ -255,6 +471,11 @@
       "type": "project",
       "path": "../Util/NotificationService/NotificationService.csproj",
       "msbuildProject": "../Util/NotificationService/NotificationService.csproj"
+    },
+    "ObserverDeck/1.0.0": {
+      "type": "project",
+      "path": "../../BLL/ObserverDeck/ObserverDeck.csproj",
+      "msbuildProject": "../../BLL/ObserverDeck/ObserverDeck.csproj"
     },
     "Styles/1.0.0": {
       "type": "project",
@@ -270,31 +491,26 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Camping_BLL_Index >= 1.0.0",
+      "Camping_UI_Views_UserControls >= 1.0.0",
       "Menu >= 1.0.0",
       "NotificationService >= 1.0.0",
-      "Styles >= 1.0.0",
-      "ViewModels >= 1.0.0"
+      "Styles >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leond\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\leond\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_Index.csproj",
+      "projectUniqueName": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_Index.csproj",
       "projectName": "Camping_UI_Index",
-      "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_Index.csproj",
+      "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.HomePage\\Camping_UI_Index.csproj",
       "packagesPath": "C:\\Users\\leond\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Camping.UI.HomePage\\obj\\",
+      "outputPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Camping.UI.HomePage\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\leond\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -308,20 +524,20 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_Index.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_Index.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_Index.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_Index.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Menu\\Menu.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Menu\\Menu.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Menu\\Menu.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\BLL\\Menu\\Menu.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Styles\\Styles.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Styles\\Styles.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Styles\\Styles.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Styles\\Styles.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
             },
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Util\\NotificationService\\NotificationService.csproj"
+            "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Views\\Camping_UI_Views_UserControls\\Camping_UI_Views_UserControls.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\OOSDD-v2\\CampingApp2\\UI\\Views\\Camping_UI_Views_UserControls\\Camping_UI_Views_UserControls.csproj"
             }
           }
         }
@@ -330,6 +546,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -354,7 +575,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

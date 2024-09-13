@@ -1,0 +1,12 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.csproj.AssemblyReference.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.sourcelink.json
+C:\Users\leond\source\OOSDD-v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.csproj.AssemblyReference.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\OOSDD-v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.AssemblyInfoInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.AssemblyInfo.cs
+C:\Users\leond\source\OOSDD-v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\BLL\ViewModels\obj\Debug\net8.0-windows\ViewModels.sourcelink.json

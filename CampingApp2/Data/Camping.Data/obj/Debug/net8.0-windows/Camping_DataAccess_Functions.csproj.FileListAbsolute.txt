@@ -1,0 +1,12 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.csproj.AssemblyReference.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.AssemblyInfoInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.AssemblyInfo.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.sourcelink.json
+C:\Users\leond\source\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.csproj.AssemblyReference.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.AssemblyInfoInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.AssemblyInfo.cs
+C:\Users\leond\source\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\OOSDD-v2\CampingApp2\DataAccess\Camping.DataAccess.Functions\obj\Debug\net8.0-windows\Camping_DataAccess_Functions.sourcelink.json
