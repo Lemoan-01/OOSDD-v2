@@ -1,5 +1,5 @@
-﻿<Window x:Class="Camping_UI_HomePage.MainWindow"
-        xmlns:local="clr-namespace:Camping_UI_HomePage;assembly=Camping_UI_HomePage"
+﻿<Window x:Class="Camping_UI_Index.MainWindow"
+        xmlns:local="clr-namespace:Camping_UI_Index;assembly=Camping_UI_Index"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -13,14 +13,10 @@
         AllowsTransparency="True"
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
-        Icon="CampingApp2\Resources\Images\Icons\icoKangaroo.ico"
+        Icon="pack://application:,,,/CampingApp2;component/Resources/Images/Icons/icoKangaroo.ico"
         ResizeMode="CanResizeWithGrip"
         MinWidth="800"
         MinHeight="600">
-
-    <Window.DataContext>
-        <vm:NavigationVM/>
-    </Window.DataContext>
 
     <!-- Exit/Minimize Style -->
     <Window.Resources>
@@ -72,7 +68,7 @@
 
             <!-- Left StackPanel -->
             <StackPanel x:Name="pnlSelectionBar" Background="#282C31" Width="180" Orientation="Vertical" HorizontalAlignment="Left" MouseDown="pnlSelectionBar_MouseDown">
-                <Image Height="100" Width="100" Source="/imgRoundedKangaroo.png" Margin="0,20,0,0">
+                <Image Height="100" Width="100" Source="pack://application:,,,/CampingApp2;component/Resources/Images/imgRoundedKangaroo.png" Margin="0,20,0,0">
                     <Image.Effect>
                         <DropShadowEffect ShadowDepth="0" Color="#FF2B88CA" Opacity="1" BlurRadius="65"/>
                     </Image.Effect>

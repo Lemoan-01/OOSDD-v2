@@ -1,6 +1,6 @@
 ﻿namespace ViewModels
 {
-    class AccountVM : ViewModelBase
+    public class AccountVM : ViewModelBase
     {
     }
 }

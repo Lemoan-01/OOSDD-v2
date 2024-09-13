@@ -11,6 +11,9 @@
     <Compile Update="Loading.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Map.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Account.xaml">
@@ -19,7 +22,19 @@
     <Page Update="Admin.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Loading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Map.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Register.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

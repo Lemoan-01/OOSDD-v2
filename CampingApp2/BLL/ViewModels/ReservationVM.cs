@@ -1,6 +1,6 @@
 ﻿namespace ViewModels
 {
-    class ReservationVM : ViewModelBase
+    public class ReservationVM : ViewModelBase
     {
     }
 }

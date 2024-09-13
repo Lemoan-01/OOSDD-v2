@@ -4,7 +4,7 @@ using NotificationService;
 
 namespace ViewModels
 {
-    class LoginVM : ViewModelBase
+    public class LoginVM : ViewModelBase
     {
         public ICommand NavigateToRegisterCommand { get; }
 

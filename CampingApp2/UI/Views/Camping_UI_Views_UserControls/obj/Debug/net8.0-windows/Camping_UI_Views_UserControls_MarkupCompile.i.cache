@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-3-82756836
+7-1637213605
 
-7-1250013667
-199-374586444
-Account.xaml;Admin.xaml;Loading.xaml;
+11130636189
+215-2045206914
+Account.xaml;Admin.xaml;Home.xaml;Loading.xaml;Login.xaml;Map.xaml;Register.xaml;
 
 False
 

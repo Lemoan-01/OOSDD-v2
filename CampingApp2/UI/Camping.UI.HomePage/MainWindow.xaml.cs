@@ -1,24 +1,26 @@
-﻿using Camping_BLL_HomePage;
+﻿using Camping_BLL_Index;
 using System;
 using System.Windows;
 using System.Windows.Input;
 
-namespace Camping_UI_HomePage
+namespace Camping_UI_Index
 {
     public partial class MainWindow : Window
     {
         public static int userID { get; internal set; } = -1; // default value for guests
         private bool isAdmin = false;
 
-        private BLLHomePage businessLogic;
+        private BLLIndex businessLogic;
 
         public MainWindow()
         {
+            this.DataContext = new ViewModels.NavigationVM();
+
             InitializeComponent();
 
             accInfo.Visibility = Visibility.Collapsed;
             btnAdminPage.Visibility = Visibility.Collapsed;
-            businessLogic = new BLLHomePage();
+            businessLogic = new BLLIndex();
         }
 
         public MainWindow(int _userID, bool isAdmin)
@@ -26,7 +28,7 @@ namespace Camping_UI_HomePage
             InitializeComponent();
             userID = _userID;
             this.isAdmin = isAdmin;
-            businessLogic = new BLLHomePage();
+            businessLogic = new BLLIndex();
             string email = businessLogic.GetUserEmail(userID);
 
             if (userID != -1)

@@ -59,7 +59,7 @@ namespace Camping.UI.HomePage {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/Camping_UI_HomePage;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Camping_UI_Index;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

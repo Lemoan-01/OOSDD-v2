@@ -1,6 +1,6 @@
 ﻿namespace ViewModels
 {
-    class HomeVM : ViewModelBase
+    public class HomeVM : ViewModelBase
     {
     }
 }

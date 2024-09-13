@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BLL\Camping.BLL.HomePage\Camping_BLL_Index.csproj" />
+    <ProjectReference Include="..\..\BLL\Menu\Menu.csproj" />
+    <ProjectReference Include="..\..\BLL\ViewModels\ViewModels.csproj" />
+    <ProjectReference Include="..\Styles\Styles.csproj" />
+    <ProjectReference Include="..\Util\NotificationService\NotificationService.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,6 @@
 ﻿namespace ViewModels
 {
-    class AdminVM : ViewModelBase
+    public class AdminVM : ViewModelBase
     {
     }
 }

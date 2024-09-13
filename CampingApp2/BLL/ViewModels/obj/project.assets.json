@@ -48,17 +48,17 @@
           "bin/placeholder/Camping_BLL.dll": {}
         }
       },
-      "Camping_BLL_HomePage/1.0.0": {
+      "Camping_BLL_Index/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Camping_BLL": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Camping_BLL_HomePage.dll": {}
+          "bin/placeholder/Camping_BLL_Index.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Camping_BLL_HomePage.dll": {}
+          "bin/placeholder/Camping_BLL_Index.dll": {}
         }
       },
       "Camping_DataAccess_Functions/1.0.0": {
@@ -96,6 +96,19 @@
         },
         "runtime": {
           "bin/placeholder/NotificationService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Styles/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Styles.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Styles.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -208,10 +221,10 @@
       "path": "../Camping_BLL/Camping_BLL.csproj",
       "msbuildProject": "../Camping_BLL/Camping_BLL.csproj"
     },
-    "Camping_BLL_HomePage/1.0.0": {
+    "Camping_BLL_Index/1.0.0": {
       "type": "project",
-      "path": "../Camping.BLL.HomePage/Camping_BLL_HomePage.csproj",
-      "msbuildProject": "../Camping.BLL.HomePage/Camping_BLL_HomePage.csproj"
+      "path": "../Camping.BLL.HomePage/Camping_BLL_Index.csproj",
+      "msbuildProject": "../Camping.BLL.HomePage/Camping_BLL_Index.csproj"
     },
     "Camping_DataAccess_Functions/1.0.0": {
       "type": "project",
@@ -227,12 +240,18 @@
       "type": "project",
       "path": "../../UI/Util/NotificationService/NotificationService.csproj",
       "msbuildProject": "../../UI/Util/NotificationService/NotificationService.csproj"
+    },
+    "Styles/1.0.0": {
+      "type": "project",
+      "path": "../../UI/Styles/Styles.csproj",
+      "msbuildProject": "../../UI/Styles/Styles.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Camping_BLL_HomePage >= 1.0.0",
-      "Menu >= 1.0.0"
+      "Camping_BLL_Index >= 1.0.0",
+      "Menu >= 1.0.0",
+      "Styles >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -267,11 +286,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj": {
-              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_HomePage.csproj"
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_Index.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Camping.BLL.HomePage\\Camping_BLL_Index.csproj"
             },
             "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Menu\\Menu.csproj": {
               "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\BLL\\Menu\\Menu.csproj"
+            },
+            "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Styles\\Styles.csproj": {
+              "projectPath": "C:\\Users\\leond\\source\\repos\\OOSDD v2\\CampingApp2\\UI\\Styles\\Styles.csproj"
             }
           }
         }

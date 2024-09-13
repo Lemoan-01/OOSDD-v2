@@ -2,12 +2,12 @@
 using Camping_BLL;
 using System;
 
-namespace Camping_BLL_HomePage
+namespace Camping_BLL_Index
 {
-    public class BLLHomePage : BaseLogic
+    public class BLLIndex : BaseLogic
     {
 
-        public BLLHomePage()
+        public BLLIndex()
         {
         }
 

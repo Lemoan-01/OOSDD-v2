@@ -53,7 +53,7 @@ namespace Camping_UI_Views_UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Camping_UI_Views_UserControls;component/admin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Camping_UI_Views_UserControls;V1.0.0.0;component/admin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Admin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

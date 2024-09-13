@@ -1,0 +1,6 @@
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_Index.csproj.AssemblyReference.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_Index_MarkupCompile.cache
+C:\Users\leond\source\repos\OOSDD v2\CampingApp2\UI\Camping.UI.HomePage\obj\Debug\net8.0-windows\Camping_UI_Index_MarkupCompile.lref
