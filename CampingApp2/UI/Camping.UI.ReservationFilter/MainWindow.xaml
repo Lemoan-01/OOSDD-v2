@@ -3,8 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:vm="clr-namespace:Homepage.ViewModels"
-        xmlns:Menu="clr-namespace:Homepage.Utilities"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="Filters"
@@ -81,7 +79,7 @@
                     </DatePicker>
 
                     <!-- Apply Filter Button -->
-                    <Button Content="Apply Filter" Margin="5,10,5,0" HorizontalAlignment="Center" Background="#00DDDDDD" Foreground="White" Width="155" Height="40" BorderBrush="#FF2C9BFF" Click="Button_Click"/>
+                    <Button x:Name="applyFilter" Content="Apply Filter" Margin="5,10,5,0" HorizontalAlignment="Center" Background="#00DDDDDD" Foreground="White" Width="155" Height="40" BorderBrush="#FF2C9BFF" Click="Button_Click"/>
                     <Label x:Name="LblStayDuration" Content="" Foreground="White" Height="52" Width="181" FontSize="16" FontFamily="Yu Gotic UI Semibold"/>
                 </StackPanel>
             </Grid>

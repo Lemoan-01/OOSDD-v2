@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using NotificationService;
 
-namespace Camping.Data.Functions
+namespace Camping_Data
 {
     public class DBFunctions
     {

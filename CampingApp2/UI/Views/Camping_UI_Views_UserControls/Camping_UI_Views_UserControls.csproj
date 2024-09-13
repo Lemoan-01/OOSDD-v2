@@ -16,7 +16,6 @@
     <ProjectReference Include="..\..\..\Model\ObserverDeck\ObserverDeck.csproj" />
     <ProjectReference Include="..\..\..\Model\ViewModels\ViewModels.csproj" />
     <ProjectReference Include="..\..\..\Model\Camping_BLL_Map\Camping_BLL_Map.csproj" />
-    <ProjectReference Include="..\..\..\Model\ObserverDeck\ObserverDeck.csproj" />
     <ProjectReference Include="..\..\..\Model\ViewModels\ViewModels.csproj" />
     <ProjectReference Include="..\..\Camping.UI.ReservationFilter\Camping_UI_ReservationFilter.csproj" />
     <ProjectReference Include="..\..\Styles\Styles.csproj" />
