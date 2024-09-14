@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Camping_BLL_Map")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0696dffd9f61b9341efd05e6ad8b39d3b474d3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21b7a54d14e7bf18a00e5311e59c2dcc9c3fe586")]
 [assembly: System.Reflection.AssemblyProductAttribute("Camping_BLL_Map")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Camping_BLL_Map")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
